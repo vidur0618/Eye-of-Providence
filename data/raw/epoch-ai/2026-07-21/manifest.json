@@ -1,0 +1,149 @@
+{
+  "source_name": "Epoch AI — AI Data Centers",
+  "source_url": "https://epoch.ai/data/data_centers/data_centers.zip",
+  "csv_url": "https://epoch.ai/data/data_centers/data_centers.csv",
+  "documentation_url": "https://epoch.ai/data/data-centers-documentation",
+  "methodology_url": "https://epoch.ai/data/data-centers-documentation/methodology",
+  "license": "Creative Commons Attribution (CC BY)",
+  "accessed_at": "2026-07-21",
+  "retrieved_at_utc": "2026-07-21T06:23:57.431Z",
+  "sha256": "aabdd04733c9b6dd254d7222200177f7a9e2edcb90b9a057883ad67e72987316",
+  "byte_length": 54034,
+  "record_count": 74,
+  "columns": [
+    "Name",
+    "Current H100 equivalents",
+    "Current power (MW)",
+    "Current total capital cost (2025 USD billions)",
+    "Owner",
+    "Users",
+    "Selected Sources",
+    "Calculations sheet",
+    "Project",
+    "Current chip types",
+    "All chip types",
+    "Investors",
+    "Construction companies",
+    "Energy companies",
+    "Country",
+    "Address"
+  ],
+  "archive_sha256": "82a4f1649201464cbd422c1fd9c328ff5fe79638bc32ce9cc5eb7c6ada8500c7",
+  "archive_byte_length": 90800,
+  "package_files": {
+    "README.md": {
+      "byte_length": 573,
+      "sha256": "fd725bd900c8b1014a74ca664ec36b2ab1ce199d346764ab6de1cc1b101a4180"
+    },
+    "data_centers.csv": {
+      "byte_length": 54034,
+      "sha256": "aabdd04733c9b6dd254d7222200177f7a9e2edcb90b9a057883ad67e72987316",
+      "record_count": 74,
+      "columns": [
+        "Name",
+        "Current H100 equivalents",
+        "Current power (MW)",
+        "Current total capital cost (2025 USD billions)",
+        "Owner",
+        "Users",
+        "Selected Sources",
+        "Calculations sheet",
+        "Project",
+        "Current chip types",
+        "All chip types",
+        "Investors",
+        "Construction companies",
+        "Energy companies",
+        "Country",
+        "Address"
+      ]
+    },
+    "data_center_timelines.csv": {
+      "byte_length": 134881,
+      "sha256": "e4e020186f6d0d675ff1152481e093571ae62920bed4bfce42f8d5cbed60d865",
+      "record_count": 419,
+      "columns": [
+        "Data center",
+        "Date",
+        "Construction status",
+        "Buildings operational",
+        "IT power (MW)",
+        "Power (MW)",
+        "H100 equivalents",
+        "Performance (8-bit OP/s)",
+        "Total capital cost (2025 USD billions)",
+        "Compute cost (2025 USD billions)",
+        "Construction cost (2025 USD billions)",
+        "Annual operating cost (2025 USD billions)",
+        "Water use (MGD)",
+        "Current H100 equivalents (from Data center)"
+      ]
+    },
+    "data_center_chip_quantities.csv": {
+      "byte_length": 74625,
+      "sha256": "28e01d33d2d21c580c2a760d6a066122a1822a0114da4734c123756ca86581ad",
+      "record_count": 196,
+      "columns": [
+        "Handle",
+        "Data center",
+        "Date",
+        "Chip type",
+        "Number of Units",
+        "Chip type source",
+        "Number of Units source",
+        "Owner",
+        "User",
+        "Notes",
+        "Created By",
+        "Created",
+        "Last Modified By",
+        "Last Modified"
+      ]
+    },
+    "data_center_chillers.csv": {
+      "byte_length": 34665,
+      "sha256": "9711dcfdac0b0de82a1808717e106ea28e213c2a845b42a691ad3cd63caeb704",
+      "record_count": 143,
+      "columns": [
+        "Model",
+        "Manufacturer",
+        "Type",
+        "Cooling capacity (kW)",
+        "Number of fans",
+        "Length (m)",
+        "Width (m)",
+        "Area (m^2)",
+        "Source",
+        "Link",
+        "Spot check",
+        "Notes"
+      ]
+    },
+    "data_center_cooling_towers.csv": {
+      "byte_length": 85832,
+      "sha256": "c9ce622e1eaf15cc70bf2445a66f17c9c2be19a3638a96c421dc7e31c3a2db66",
+      "record_count": 527,
+      "columns": [
+        "Model",
+        "Manufacturer",
+        "Length (m)",
+        "Width (m)",
+        "Height (m)",
+        "Area (m^2)",
+        "Cooling capacity (stated, kW)",
+        "Cooling capacity (central estimate, kW)",
+        "Source",
+        "Link",
+        "Spot check",
+        "Notes",
+        "Fan Diameter (m)",
+        "Number of Fans",
+        "Fan estimate diameter (m)",
+        "Type",
+        "Motor Horsepower"
+      ]
+    }
+  },
+  "immutable_snapshot": true,
+  "attribution": "Epoch AI, 'AI Data Centers', https://epoch.ai/data/data-centers-documentation"
+}

@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "source": "Homeland Infrastructure Foundation-Level Data (HIFLD) — Control Areas",
+    "sourceItemUrl": "https://www.arcgis.com/home/item.html?id=17499e6de9104f7288ce2ccc9239bc98",
+    "sourceItemId": "17499e6de9104f7288ce2ccc9239bc98",
+    "serviceUrl": "https://services5.arcgis.com/HDRa0B57OVrv2E1q/ArcGIS/rest/services/Control_Areas/FeatureServer/0",
+    "sourceSnapshotDate": "2021-12-08",
+    "accessedAt": "2026-07-21",
+    "facilityCount": 18,
+    "singleMatchCount": 16,
+    "ambiguousMatchCount": 2,
+    "unresolvedCount": 0,
+    "addressRangeMatchCount": 8,
+    "cityCentroidFallbackCount": 10,
+    "sensitiveCoordinatesStored": false,
+    "license": "None (Public Use). Users are advised to read the dataset metadata and limitations.",
+    "credits": "ORNL, LANL, INL, and the NGA Homeland Security Infrastructure Program Team.",
+    "useConstraints": "A legacy geometric control-area polygon is a screening hint, not proof of the serving utility or current balancing-authority relationship. Every row is excluded from forecast inputs pending confirmation."
+  },
+  "facilities": {
+    "us-tn-memphis-colossus-2": {
+      "facilityId": "us-tn-memphis-colossus-2",
+      "upstreamName": "Colossus 2",
+      "candidates": [
+        {
+          "authorityId": "18642",
+          "authorityName": "TENNESSEE VALLEY AUTHORITY",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.tva.gov/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "address-range-transient-coordinate",
+      "provenance": "Estimated",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "c11680b9d9d1ee8dcdbb7fa1952092f259df7e65db638a27a9ab455551b360fb",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-ga-fayetteville-fairwater": {
+      "facilityId": "us-ga-fayetteville-fairwater",
+      "upstreamName": "Microsoft Fairwater Atlanta",
+      "candidates": [
+        {
+          "authorityId": "18195",
+          "authorityName": "SOUTHERN COMPANY SERVICES, INC. - TRANS",
+          "featureSource": "FERC 714, EIA 861",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.southerncompany.com/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "address-range-transient-coordinate",
+      "provenance": "Estimated",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "0b03e93d2415ef9bd0bb69f393fbb0e8c1e51f04002f781852dd2a174c60e3dd",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-oh-new-albany-prometheus": {
+      "facilityId": "us-oh-new-albany-prometheus",
+      "upstreamName": "Meta Prometheus",
+      "candidates": [
+        {
+          "authorityId": "14725",
+          "authorityName": "PJM INTERCONNECTION, LLC",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "http://www.pjm.com/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "89f4f131784274977be274b4c8b95c99447ba6cb826031237c5d4510a5fa99f9",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-in-new-carlisle-rainier": {
+      "facilityId": "us-in-new-carlisle-rainier",
+      "upstreamName": "Anthropic-Amazon New Carlisle",
+      "candidates": [
+        {
+          "authorityId": "14725",
+          "authorityName": "PJM INTERCONNECTION, LLC",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "http://www.pjm.com/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "address-range-transient-coordinate",
+      "provenance": "Estimated",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "96e39e35439587451d8d6424649a699342e3f2cf4015d72a8189df143ebddb6e",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-tx-abilene-stargate": {
+      "facilityId": "us-tx-abilene-stargate",
+      "upstreamName": "OpenAI Stargate Abilene",
+      "candidates": [
+        {
+          "authorityId": "5723",
+          "authorityName": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "http://www.ercot.com/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "3bfe6a1ecc36475c2812f42db31bc6d518fb9d244afcdb2f9a673ca11e3d766f",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-wi-mount-pleasant-fairwater": {
+      "facilityId": "us-wi-mount-pleasant-fairwater",
+      "upstreamName": "Microsoft Fairwater Wisconsin",
+      "candidates": [
+        {
+          "authorityId": "56669",
+          "authorityName": "MIDCONTINENT INDEPENDENT TRANSMISSION SYSTEM OPERATOR, INC..",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.misoenergy.org/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "address-range-transient-coordinate",
+      "provenance": "Estimated",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "e0e4979eb56612b86f87cca61d47d0f017df8fdd9a132d9a068ec9d3e82c17a5",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-oh-columbus-google": {
+      "facilityId": "us-oh-columbus-google",
+      "upstreamName": "Google Columbus",
+      "candidates": [
+        {
+          "authorityId": "14725",
+          "authorityName": "PJM INTERCONNECTION, LLC",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "http://www.pjm.com/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "d37fa4b4efa520eba7b9121ff51ef079f0d71c67e2c0b75b89e1c8b9e34b1a58",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-oh-new-albany-google": {
+      "facilityId": "us-oh-new-albany-google",
+      "upstreamName": "Google New Albany",
+      "candidates": [
+        {
+          "authorityId": "14725",
+          "authorityName": "PJM INTERCONNECTION, LLC",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "http://www.pjm.com/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "480fa9eb5cd4b9f2d3d73428f4f7d1d1a649817fd78d9889d57da5e4bba5bffd",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-ia-council-bluffs-google": {
+      "facilityId": "us-ia-council-bluffs-google",
+      "upstreamName": "Google Council Bluffs (East)",
+      "candidates": [
+        {
+          "authorityId": "56669",
+          "authorityName": "MIDCONTINENT INDEPENDENT TRANSMISSION SYSTEM OPERATOR, INC..",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.misoenergy.org/",
+          "featureYear": "2018"
+        },
+        {
+          "authorityId": "59504",
+          "authorityName": "SOUTHWEST POWER POOL",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.spp.org/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 2,
+      "assignmentStatus": "ambiguous-geometric",
+      "locatorMethod": "address-range-transient-coordinate",
+      "provenance": "Estimated",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "07896d1e4d0fa50aa1f467c18aba40405348d6311739d540362b5937eb8ae6b0",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-ne-lincoln-google": {
+      "facilityId": "us-ne-lincoln-google",
+      "upstreamName": "Google Lincoln",
+      "candidates": [
+        {
+          "authorityId": "59504",
+          "authorityName": "SOUTHWEST POWER POOL",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.spp.org/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "8c3cad56d52cc0dd41264071acf0f1cb2a3d0b94eae22d287d6d156a7d7fe514",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-tn-memphis-colossus-1": {
+      "facilityId": "us-tn-memphis-colossus-1",
+      "upstreamName": "Colossus 1",
+      "candidates": [
+        {
+          "authorityId": "18642",
+          "authorityName": "TENNESSEE VALLEY AUTHORITY",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.tva.gov/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "4b4d0dd96a67fc73d8d14a4a493d17b57627998176f0422fe7cf6298acae555f",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-ne-omaha-google": {
+      "facilityId": "us-ne-omaha-google",
+      "upstreamName": "Google Omaha",
+      "candidates": [
+        {
+          "authorityId": "59504",
+          "authorityName": "SOUTHWEST POWER POOL",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.spp.org/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "address-range-transient-coordinate",
+      "provenance": "Estimated",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "1343cbf56ce2144bdf1ca71c0f7f4e3cbbcdea71890a7b81eaf6f34b82c1af5c",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-tx-denton-coreweave": {
+      "facilityId": "us-tx-denton-coreweave",
+      "upstreamName": "CoreWeave Denton TX",
+      "candidates": [
+        {
+          "authorityId": "5723",
+          "authorityName": "ELECTRIC RELIABILITY COUNCIL OF TEXAS, INC.",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "http://www.ercot.com/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "57db7d78a5ebd0b25fa674e54674b5fea0c225ae7beb73a9a8520228637a02eb",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-va-sandston-qts-richmond": {
+      "facilityId": "us-va-sandston-qts-richmond",
+      "upstreamName": "QTS Richmond 1",
+      "candidates": [
+        {
+          "authorityId": "14725",
+          "authorityName": "PJM INTERCONNECTION, LLC",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "http://www.pjm.com/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "a99b221f27eb4981c4d637416ccca484afa099eb8e8a15a2986742237df7d857",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-mn-rosemount-meta": {
+      "facilityId": "us-mn-rosemount-meta",
+      "upstreamName": "Meta Rosemount",
+      "candidates": [
+        {
+          "authorityId": "56669",
+          "authorityName": "MIDCONTINENT INDEPENDENT TRANSMISSION SYSTEM OPERATOR, INC..",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.misoenergy.org/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "address-range-transient-coordinate",
+      "provenance": "Estimated",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "d1498e438fb015f0690cfeca1a4c47e756ef78e6754ae9888d24fe159d6ffefc",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-ms-canton-amazon": {
+      "facilityId": "us-ms-canton-amazon",
+      "upstreamName": "Amazon Madison Mega Site",
+      "candidates": [
+        {
+          "authorityId": "56669",
+          "authorityName": "MIDCONTINENT INDEPENDENT TRANSMISSION SYSTEM OPERATOR, INC..",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.misoenergy.org/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "427fb101a74b87b771375ded7c4b9ebf45ae4caa9d4267b2276f072953318d90",
+      "addressLookupError": "400 ",
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-az-goodyear-microsoft": {
+      "facilityId": "us-az-goodyear-microsoft",
+      "upstreamName": "Microsoft Goodyear",
+      "candidates": [
+        {
+          "authorityId": "25471",
+          "authorityName": "WESTERN AREA POWER ADMINISTRATION - DESERT SOUTHWEST REGION",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.wapa.gov/",
+          "featureYear": "2018"
+        },
+        {
+          "authorityId": "803",
+          "authorityName": "ARIZONA PUBLIC SERVICE COMPANY",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "http://webcache.googleusercontent.com/search?q=cache:JDyOjDQm7XQJ:https://www.aps.com/en/globalservices/serviceareamaps+&cd=1&hl=en&ct=clnk&gl=us",
+          "featureYear": "2018"
+        },
+        {
+          "authorityId": "16572",
+          "authorityName": "SALT RIVER PROJECT",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "NOT AVAILABLE",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 3,
+      "assignmentStatus": "ambiguous-geometric",
+      "locatorMethod": "city-centroid-fallback",
+      "provenance": "Imputed",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "ec0be8946dadfb9bf3b5bb121810b4d513bc95120f1e2b2a27316e2e752c6628",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    },
+    "us-in-jeffersonville-meta": {
+      "facilityId": "us-in-jeffersonville-meta",
+      "upstreamName": "Meta Jeffersonville",
+      "candidates": [
+        {
+          "authorityId": "56669",
+          "authorityName": "MIDCONTINENT INDEPENDENT TRANSMISSION SYSTEM OPERATOR, INC..",
+          "featureSource": "FERC 714, EIA 860, EIA 861, TIGER/Line Shapefiles - U.S. Census",
+          "featureSourceDate": "2019-06-20T00:00:00.000Z",
+          "validationMethod": "OTHER",
+          "validationDate": "2020-05-15T00:00:00.000Z",
+          "website": "https://www.misoenergy.org/",
+          "featureYear": "2018"
+        }
+      ],
+      "matchCount": 1,
+      "assignmentStatus": "unconfirmed-geometric",
+      "locatorMethod": "address-range-transient-coordinate",
+      "provenance": "Estimated",
+      "confidence": "low",
+      "eligibleForForecastInputs": false,
+      "sourceAddressSha256": "60442a1aa97e23d0903cf06decdf6b9651ed1ba8a37034c920b4144fcf409cb3",
+      "addressLookupError": null,
+      "disclosure": "Legacy HIFLD polygon containment only. Confirm the serving utility, interconnection, electrical topology, and effective-date relationship before using this assignment analytically."
+    }
+  }
+}

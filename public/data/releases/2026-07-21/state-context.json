@@ -1,0 +1,2713 @@
+{
+  "metadata": {
+    "schemaVersion": "state-context.v1",
+    "releaseDate": "2026-07-21",
+    "recordCount": 50,
+    "eiaYear": "2024",
+    "usgsWaterUseYear": "2015",
+    "droughtValidDate": "2026-07-14",
+    "analyticalStatus": "Reported state context only; excluded from forecast causal inputs."
+  },
+  "states": [
+    {
+      "state": "AL",
+      "stateName": "Alabama",
+      "electricity": {
+        "retailSalesTwh": 87.52,
+        "averageCommercialPriceCentsPerKwh": 13.64,
+        "generationMixPct": {
+          "fossil": 59.9,
+          "renewable": 9.0,
+          "nuclear": 31.1,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 8247.26,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 1.5,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "AK",
+      "stateName": "Alaska",
+      "electricity": {
+        "retailSalesTwh": 6.05,
+        "averageCommercialPriceCentsPerKwh": 21.57,
+        "generationMixPct": {
+          "fossil": 71.8,
+          "renewable": 28.2,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 633.34,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 0.0,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "AZ",
+      "stateName": "Arizona",
+      "electricity": {
+        "retailSalesTwh": 90.84,
+        "averageCommercialPriceCentsPerKwh": 12.23,
+        "generationMixPct": {
+          "fossil": 56.0,
+          "renewable": 16.3,
+          "nuclear": 27.9,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 5979.34,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 89.35,
+        "d2D4Pct": 62.49,
+        "d3D4Pct": 1.47,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "AR",
+      "stateName": "Arkansas",
+      "electricity": {
+        "retailSalesTwh": 49.9,
+        "averageCommercialPriceCentsPerKwh": 10.24,
+        "generationMixPct": {
+          "fossil": 65.7,
+          "renewable": 10.2,
+          "nuclear": 24.0,
+          "other": 0.1
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 13832.55,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 54.36,
+        "d2D4Pct": 21.87,
+        "d3D4Pct": 6.96,
+        "d4Pct": 0.99,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "CA",
+      "stateName": "California",
+      "electricity": {
+        "retailSalesTwh": 245.72,
+        "averageCommercialPriceCentsPerKwh": 25.54,
+        "generationMixPct": {
+          "fossil": 41.2,
+          "renewable": 50.8,
+          "nuclear": 8.6,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 25595.98,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 5.65,
+        "d2D4Pct": 0.7,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "CO",
+      "stateName": "Colorado",
+      "electricity": {
+        "retailSalesTwh": 56.84,
+        "averageCommercialPriceCentsPerKwh": 11.71,
+        "generationMixPct": {
+          "fossil": 58.6,
+          "renewable": 41.3,
+          "nuclear": 0.0,
+          "other": 0.1
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 10301.3,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 90.29,
+        "d2D4Pct": 79.86,
+        "d3D4Pct": 45.7,
+        "d4Pct": 12.17,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "CT",
+      "stateName": "Connecticut",
+      "electricity": {
+        "retailSalesTwh": 27.35,
+        "averageCommercialPriceCentsPerKwh": 21.21,
+        "generationMixPct": {
+          "fossil": 58.2,
+          "renewable": 3.1,
+          "nuclear": 37.7,
+          "other": 1.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 616.68,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 71.07,
+        "d2D4Pct": 1.67,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "DE",
+      "stateName": "Delaware",
+      "electricity": {
+        "retailSalesTwh": 11.37,
+        "averageCommercialPriceCentsPerKwh": 12.2,
+        "generationMixPct": {
+          "fossil": 95.6,
+          "renewable": 4.4,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 533.78,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 91.42,
+        "d2D4Pct": 81.17,
+        "d3D4Pct": 46.93,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "FL",
+      "stateName": "Florida",
+      "electricity": {
+        "retailSalesTwh": 255.1,
+        "averageCommercialPriceCentsPerKwh": 10.99,
+        "generationMixPct": {
+          "fossil": 80.1,
+          "renewable": 8.2,
+          "nuclear": 10.9,
+          "other": 0.8
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 5686.61,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 75.71,
+        "d2D4Pct": 55.16,
+        "d3D4Pct": 16.18,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "GA",
+      "stateName": "Georgia",
+      "electricity": {
+        "retailSalesTwh": 150.0,
+        "averageCommercialPriceCentsPerKwh": 10.87,
+        "generationMixPct": {
+          "fossil": 53.7,
+          "renewable": 12.5,
+          "nuclear": 34.3,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 3279.07,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 33.0,
+        "d2D4Pct": 6.06,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "HI",
+      "stateName": "Hawaii",
+      "electricity": {
+        "retailSalesTwh": 8.95,
+        "averageCommercialPriceCentsPerKwh": 38.18,
+        "generationMixPct": {
+          "fossil": 77.0,
+          "renewable": 21.2,
+          "nuclear": 0.0,
+          "other": 1.8
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 682.95,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 0.0,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "ID",
+      "stateName": "Idaho",
+      "electricity": {
+        "retailSalesTwh": 26.37,
+        "averageCommercialPriceCentsPerKwh": 9.17,
+        "generationMixPct": {
+          "fossil": 31.4,
+          "renewable": 68.3,
+          "nuclear": 0.0,
+          "other": 0.3
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 17737.17,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 80.89,
+        "d2D4Pct": 53.74,
+        "d3D4Pct": 31.53,
+        "d4Pct": 8.44,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "IL",
+      "stateName": "Illinois",
+      "electricity": {
+        "retailSalesTwh": 133.23,
+        "averageCommercialPriceCentsPerKwh": 11.81,
+        "generationMixPct": {
+          "fossil": 31.0,
+          "renewable": 15.3,
+          "nuclear": 53.6,
+          "other": 0.1
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 10472.6,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 0.0,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "IN",
+      "stateName": "Indiana",
+      "electricity": {
+        "retailSalesTwh": 99.22,
+        "averageCommercialPriceCentsPerKwh": 12.44,
+        "generationMixPct": {
+          "fossil": 85.2,
+          "renewable": 14.4,
+          "nuclear": 0.0,
+          "other": 0.4
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 7176.72,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 0.0,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "IA",
+      "stateName": "Iowa",
+      "electricity": {
+        "retailSalesTwh": 54.93,
+        "averageCommercialPriceCentsPerKwh": 10.22,
+        "generationMixPct": {
+          "fossil": 34.5,
+          "renewable": 65.5,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 2688.2,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 11.31,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "KS",
+      "stateName": "Kansas",
+      "electricity": {
+        "retailSalesTwh": 41.26,
+        "averageCommercialPriceCentsPerKwh": 11.19,
+        "generationMixPct": {
+          "fossil": 32.1,
+          "renewable": 52.0,
+          "nuclear": 16.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 4012.74,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 26.57,
+        "d2D4Pct": 6.19,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "KY",
+      "stateName": "Kentucky",
+      "electricity": {
+        "retailSalesTwh": 74.41,
+        "averageCommercialPriceCentsPerKwh": 11.5,
+        "generationMixPct": {
+          "fossil": 92.8,
+          "renewable": 7.1,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 2832.57,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 11.53,
+        "d2D4Pct": 2.75,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "LA",
+      "stateName": "Louisiana",
+      "electricity": {
+        "retailSalesTwh": 95.36,
+        "averageCommercialPriceCentsPerKwh": 10.46,
+        "generationMixPct": {
+          "fossil": 80.8,
+          "renewable": 4.1,
+          "nuclear": 14.7,
+          "other": 0.5
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 8484.82,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 0.35,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "ME",
+      "stateName": "Maine",
+      "electricity": {
+        "retailSalesTwh": 11.34,
+        "averageCommercialPriceCentsPerKwh": 18.22,
+        "generationMixPct": {
+          "fossil": 44.3,
+          "renewable": 53.8,
+          "nuclear": 0.0,
+          "other": 1.9
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 384.82,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 2.4,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "MD",
+      "stateName": "Maryland",
+      "electricity": {
+        "retailSalesTwh": 59.02,
+        "averageCommercialPriceCentsPerKwh": 12.96,
+        "generationMixPct": {
+          "fossil": 46.8,
+          "renewable": 10.7,
+          "nuclear": 41.6,
+          "other": 1.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 1229.69,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 89.33,
+        "d2D4Pct": 68.38,
+        "d3D4Pct": 16.61,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "MA",
+      "stateName": "Massachusetts",
+      "electricity": {
+        "retailSalesTwh": 49.42,
+        "averageCommercialPriceCentsPerKwh": 20.9,
+        "generationMixPct": {
+          "fossil": 78.3,
+          "renewable": 19.6,
+          "nuclear": 0.0,
+          "other": 2.1
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 919.73,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 88.86,
+        "d2D4Pct": 38.17,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "MI",
+      "stateName": "Michigan",
+      "electricity": {
+        "retailSalesTwh": 98.99,
+        "averageCommercialPriceCentsPerKwh": 14.01,
+        "generationMixPct": {
+          "fossil": 67.6,
+          "renewable": 12.0,
+          "nuclear": 21.2,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 10052.26,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 2.52,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "MN",
+      "stateName": "Minnesota",
+      "electricity": {
+        "retailSalesTwh": 64.56,
+        "averageCommercialPriceCentsPerKwh": 12.15,
+        "generationMixPct": {
+          "fossil": 46.7,
+          "renewable": 32.6,
+          "nuclear": 20.2,
+          "other": 0.5
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 3230.4,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 38.22,
+        "d2D4Pct": 13.21,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "MS",
+      "stateName": "Mississippi",
+      "electricity": {
+        "retailSalesTwh": 48.68,
+        "averageCommercialPriceCentsPerKwh": 12.32,
+        "generationMixPct": {
+          "fossil": 81.9,
+          "renewable": 4.3,
+          "nuclear": 13.8,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 2671.12,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 15.22,
+        "d2D4Pct": 8.24,
+        "d3D4Pct": 4.0,
+        "d4Pct": 0.87,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "stateName": "Missouri",
+      "electricity": {
+        "retailSalesTwh": 77.78,
+        "averageCommercialPriceCentsPerKwh": 10.26,
+        "generationMixPct": {
+          "fossil": 71.9,
+          "renewable": 12.1,
+          "nuclear": 15.7,
+          "other": 0.2
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 8427.14,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 2.81,
+        "d2D4Pct": 0.43,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "MT",
+      "stateName": "Montana",
+      "electricity": {
+        "retailSalesTwh": 15.57,
+        "averageCommercialPriceCentsPerKwh": 11.87,
+        "generationMixPct": {
+          "fossil": 41.6,
+          "renewable": 57.4,
+          "nuclear": 0.0,
+          "other": 1.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 9795.8,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 52.91,
+        "d2D4Pct": 20.58,
+        "d3D4Pct": 0.61,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "NE",
+      "stateName": "Nebraska",
+      "electricity": {
+        "retailSalesTwh": 35.19,
+        "averageCommercialPriceCentsPerKwh": 8.39,
+        "generationMixPct": {
+          "fossil": 47.8,
+          "renewable": 35.9,
+          "nuclear": 16.4,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 9492.64,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 73.91,
+        "d2D4Pct": 60.76,
+        "d3D4Pct": 24.07,
+        "d4Pct": 2.92,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "NV",
+      "stateName": "Nevada",
+      "electricity": {
+        "retailSalesTwh": 40.66,
+        "averageCommercialPriceCentsPerKwh": 10.19,
+        "generationMixPct": {
+          "fossil": 60.0,
+          "renewable": 40.2,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 2882.01,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 75.36,
+        "d2D4Pct": 45.45,
+        "d3D4Pct": 15.7,
+        "d4Pct": 2.25,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "NH",
+      "stateName": "New Hampshire",
+      "electricity": {
+        "retailSalesTwh": 10.91,
+        "averageCommercialPriceCentsPerKwh": 19.4,
+        "generationMixPct": {
+          "fossil": 27.7,
+          "renewable": 14.9,
+          "nuclear": 57.1,
+          "other": 0.3
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 242.02,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 25.71,
+        "d2D4Pct": 3.16,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "NJ",
+      "stateName": "New Jersey",
+      "electricity": {
+        "retailSalesTwh": 73.53,
+        "averageCommercialPriceCentsPerKwh": 14.64,
+        "generationMixPct": {
+          "fossil": 49.6,
+          "renewable": 3.8,
+          "nuclear": 46.0,
+          "other": 0.6
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 1883.56,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 75.69,
+        "d2D4Pct": 34.85,
+        "d3D4Pct": 3.39,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "NM",
+      "stateName": "New Mexico",
+      "electricity": {
+        "retailSalesTwh": 30.3,
+        "averageCommercialPriceCentsPerKwh": 10.54,
+        "generationMixPct": {
+          "fossil": 50.6,
+          "renewable": 49.4,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 2809.48,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 93.54,
+        "d2D4Pct": 77.6,
+        "d3D4Pct": 36.13,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "NY",
+      "stateName": "New York",
+      "electricity": {
+        "retailSalesTwh": 140.5,
+        "averageCommercialPriceCentsPerKwh": 18.77,
+        "generationMixPct": {
+          "fossil": 48.6,
+          "renewable": 30.0,
+          "nuclear": 21.0,
+          "other": 0.5
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 5314.26,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 6.18,
+        "d2D4Pct": 1.65,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "NC",
+      "stateName": "North Carolina",
+      "electricity": {
+        "retailSalesTwh": 136.9,
+        "averageCommercialPriceCentsPerKwh": 10.56,
+        "generationMixPct": {
+          "fossil": 53.9,
+          "renewable": 13.8,
+          "nuclear": 32.1,
+          "other": 0.2
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 8916.65,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 94.87,
+        "d2D4Pct": 79.35,
+        "d3D4Pct": 38.7,
+        "d4Pct": 5.32,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "ND",
+      "stateName": "North Dakota",
+      "electricity": {
+        "retailSalesTwh": 29.77,
+        "averageCommercialPriceCentsPerKwh": 7.19,
+        "generationMixPct": {
+          "fossil": 60.4,
+          "renewable": 39.5,
+          "nuclear": 0.0,
+          "other": 0.1
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 1380.29,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 11.05,
+        "d2D4Pct": 0.35,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "OH",
+      "stateName": "Ohio",
+      "electricity": {
+        "retailSalesTwh": 153.71,
+        "averageCommercialPriceCentsPerKwh": 10.66,
+        "generationMixPct": {
+          "fossil": 82.1,
+          "renewable": 5.3,
+          "nuclear": 12.6,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 6524.79,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 0.0,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "OK",
+      "stateName": "Oklahoma",
+      "electricity": {
+        "retailSalesTwh": 72.08,
+        "averageCommercialPriceCentsPerKwh": 8.92,
+        "generationMixPct": {
+          "fossil": 57.3,
+          "renewable": 42.7,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 1807.7,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 43.37,
+        "d2D4Pct": 35.01,
+        "d3D4Pct": 15.54,
+        "d4Pct": 1.55,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "OR",
+      "stateName": "Oregon",
+      "electricity": {
+        "retailSalesTwh": 59.68,
+        "averageCommercialPriceCentsPerKwh": 10.11,
+        "generationMixPct": {
+          "fossil": 38.6,
+          "renewable": 61.4,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 6575.8,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 88.28,
+        "d2D4Pct": 57.8,
+        "d3D4Pct": 20.3,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "PA",
+      "stateName": "Pennsylvania",
+      "electricity": {
+        "retailSalesTwh": 142.15,
+        "averageCommercialPriceCentsPerKwh": 11.03,
+        "generationMixPct": {
+          "fossil": 65.3,
+          "renewable": 3.5,
+          "nuclear": 31.2,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 6030.09,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 15.37,
+        "d2D4Pct": 6.52,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "RI",
+      "stateName": "Rhode Island",
+      "electricity": {
+        "retailSalesTwh": 7.41,
+        "averageCommercialPriceCentsPerKwh": 21.09,
+        "generationMixPct": {
+          "fossil": 90.0,
+          "renewable": 10.0,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 121.51,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 100.0,
+        "d2D4Pct": 47.96,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "SC",
+      "stateName": "South Carolina",
+      "electricity": {
+        "retailSalesTwh": 83.96,
+        "averageCommercialPriceCentsPerKwh": 10.64,
+        "generationMixPct": {
+          "fossil": 39.6,
+          "renewable": 7.1,
+          "nuclear": 53.5,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 6172.01,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 86.45,
+        "d2D4Pct": 55.85,
+        "d3D4Pct": 24.53,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "SD",
+      "stateName": "South Dakota",
+      "electricity": {
+        "retailSalesTwh": 13.64,
+        "averageCommercialPriceCentsPerKwh": 10.55,
+        "generationMixPct": {
+          "fossil": 18.4,
+          "renewable": 81.6,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 399.99,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 48.98,
+        "d2D4Pct": 18.24,
+        "d3D4Pct": 4.13,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "TN",
+      "stateName": "Tennessee",
+      "electricity": {
+        "retailSalesTwh": 102.96,
+        "averageCommercialPriceCentsPerKwh": 12.05,
+        "generationMixPct": {
+          "fossil": 44.7,
+          "renewable": 13.8,
+          "nuclear": 42.3,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 6421.68,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 22.08,
+        "d2D4Pct": 7.62,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "TX",
+      "stateName": "Texas",
+      "electricity": {
+        "retailSalesTwh": 505.43,
+        "averageCommercialPriceCentsPerKwh": 8.55,
+        "generationMixPct": {
+          "fossil": 63.8,
+          "renewable": 29.4,
+          "nuclear": 6.8,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 18881.95,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 25.79,
+        "d2D4Pct": 8.89,
+        "d3D4Pct": 1.04,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "UT",
+      "stateName": "Utah",
+      "electricity": {
+        "retailSalesTwh": 34.69,
+        "averageCommercialPriceCentsPerKwh": 9.39,
+        "generationMixPct": {
+          "fossil": 78.7,
+          "renewable": 20.9,
+          "nuclear": 0.0,
+          "other": 0.4
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 3875.3,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 100.0,
+        "d2D4Pct": 94.71,
+        "d3D4Pct": 39.6,
+        "d4Pct": 0.27,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "VT",
+      "stateName": "Vermont",
+      "electricity": {
+        "retailSalesTwh": 5.46,
+        "averageCommercialPriceCentsPerKwh": 18.89,
+        "generationMixPct": {
+          "fossil": 0.2,
+          "renewable": 99.8,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 90.94,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 0.0,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "VA",
+      "stateName": "Virginia",
+      "electricity": {
+        "retailSalesTwh": 138.04,
+        "averageCommercialPriceCentsPerKwh": 8.72,
+        "generationMixPct": {
+          "fossil": 61.5,
+          "renewable": 11.4,
+          "nuclear": 28.2,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 4312.25,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 85.61,
+        "d2D4Pct": 50.13,
+        "d3D4Pct": 16.83,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "WA",
+      "stateName": "Washington",
+      "electricity": {
+        "retailSalesTwh": 89.98,
+        "averageCommercialPriceCentsPerKwh": 9.99,
+        "generationMixPct": {
+          "fossil": 20.7,
+          "renewable": 69.5,
+          "nuclear": 9.7,
+          "other": 0.1
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 4255.59,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 63.7,
+        "d2D4Pct": 8.1,
+        "d3D4Pct": 0.94,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "WV",
+      "stateName": "West Virginia",
+      "electricity": {
+        "retailSalesTwh": 32.99,
+        "averageCommercialPriceCentsPerKwh": 11.62,
+        "generationMixPct": {
+          "fossil": 93.0,
+          "renewable": 7.0,
+          "nuclear": 0.0,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 2315.71,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 16.73,
+        "d2D4Pct": 2.45,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "WI",
+      "stateName": "Wisconsin",
+      "electricity": {
+        "retailSalesTwh": 68.29,
+        "averageCommercialPriceCentsPerKwh": 12.63,
+        "generationMixPct": {
+          "fossil": 72.1,
+          "renewable": 12.3,
+          "nuclear": 15.5,
+          "other": 0.0
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 5755.75,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 13.83,
+        "d2D4Pct": 0.0,
+        "d3D4Pct": 0.0,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    },
+    {
+      "state": "WY",
+      "stateName": "Wyoming",
+      "electricity": {
+        "retailSalesTwh": 17.22,
+        "averageCommercialPriceCentsPerKwh": 9.27,
+        "generationMixPct": {
+          "fossil": 74.1,
+          "renewable": 25.6,
+          "nuclear": 0.0,
+          "other": 0.2
+        },
+        "sourceDate": "2024",
+        "freshness": "aging"
+      },
+      "water": {
+        "freshwaterWithdrawalsMgd": 8047.49,
+        "sourceDate": "2015",
+        "freshness": "stale",
+        "limitation": "Historical statewide freshwater withdrawals; not a data-center water source, right, provider, entitlement, or availability measure."
+      },
+      "drought": {
+        "d1D4Pct": 99.65,
+        "d2D4Pct": 83.65,
+        "d3D4Pct": 45.01,
+        "d4Pct": 0.0,
+        "sourceDate": "2026-07-14",
+        "freshness": "current",
+        "limitation": "Broad-scale weekly drought area; not evidence of a facility provider, source, water right, or physical availability."
+      },
+      "sources": [
+        {
+          "id": "eia-state-electricity-2024",
+          "label": "EIA state electricity data",
+          "url": "https://www.eia.gov/opendata/",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usgs-water-use-2015",
+          "label": "USGS 2015 water-use compilation",
+          "url": "https://doi.org/10.5066/F7TB15V5",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        },
+        {
+          "id": "usdm-state-area-2026-07-14",
+          "label": "U.S. Drought Monitor state statistics",
+          "url": "https://droughtmonitor.unl.edu/DmData/DataDownload/WebServiceInfo.aspx",
+          "accessedAt": "2026-07-21",
+          "provenance": "Reported"
+        }
+      ]
+    }
+  ]
+}

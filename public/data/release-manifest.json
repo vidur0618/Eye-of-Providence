@@ -1,0 +1,103 @@
+{
+  "release": "0.2.0",
+  "as_of": "2026-07-21",
+  "dataset_version": "kop-facilities-2026-07-21.1",
+  "model_version": "kop-forecast-0.2.0",
+  "status": "public research pilot",
+  "geographic_scope": "All 50 United States, including Alaska and Hawaii insets; tracked facilities use city-level display points",
+  "time_horizon": "quarterly from 2026-Q3 through 2030-Q4; annually from 2031 through 2040",
+  "facility_records": 18,
+  "state_records": 50,
+  "release_assets": {
+    "state_context": {
+      "file": "releases/2026-07-21/state-context.json",
+      "sha256": "d0f000cade8f2672b61731a81d876a3ca96f4c770c682a82164d35ba13da5b6c",
+      "schema_version": "state-context.v1",
+      "source_versions": ["EIA final annual 2024", "USGS water use 2015 v2.0", "USDM 2026-07-14"],
+      "accessed_at": "2026-07-21",
+      "freshness_thresholds_days": { "current": 14, "aging": 730, "stale": 731 }
+    },
+    "state_policies": {
+      "file": "releases/2026-07-21/state-policies.json",
+      "sha256": "1290af474034623a4cf0741cdf9be2c4fef0aade4fc8bc311b91f1958a7d5dea",
+      "schema_version": "state-policies.v1",
+      "source_versions": ["OpenStates v3 discovery interface — credential required", "NCSL 50-state incentive index updated 2026-04-01"],
+      "accessed_at": "2026-07-21",
+      "freshness_thresholds_days": { "current": 14, "aging": 45, "stale": 46 }
+    },
+    "data_run": {
+      "file": "releases/2026-07-21/data-run.json",
+      "sha256": "cef51642ca77516a5b15668916506fe61c0ed1eb5e83bba80eae36bc425b05bd",
+      "schema_version": "data-run.v1",
+      "source_versions": ["Epoch remote package integrity check", "EIA API refresh attempt", "USDM 50-state live validation", "NCSL 50-state policy index"],
+      "accessed_at": "2026-07-21",
+      "status": "partial — explicit gaps and blockers retained"
+    }
+  },
+  "geography_crosswalks": {
+    "county": {
+      "matched_records": 18,
+      "address_range_matches": 8,
+      "city_centroid_imputations": 10,
+      "source": "U.S. Census Geocoding Services Current_Current, accessed 2026-07-21"
+    },
+    "huc8": {
+      "matched_records": 18,
+      "address_range_matches": 8,
+      "city_centroid_imputations": 10,
+      "source": "USGS Watershed Boundary Dataset Map Service, accessed 2026-07-21"
+    },
+    "principal_aquifer_context": {
+      "mapped_records": 18,
+      "address_range_matches": 8,
+      "city_centroid_imputations": 10,
+      "source": "USGS 2003 Principal Aquifers data release, WFS accessed 2026-07-21",
+      "analytical_status": "regional spatial context only; not evidence of facility water supply or groundwater use"
+    },
+    "balancing_authority_screen": {
+      "single_polygon_candidates": 16,
+      "ambiguous_polygon_candidates": 2,
+      "unresolved_records": 0,
+      "source": "HIFLD public-use Control Areas snapshot dated 2021-12-08, queried 2026-07-21",
+      "analytical_status": "provisional, low confidence, and excluded from forecast inputs pending serving-utility/topology confirmation"
+    },
+    "retail_utility_screen": {
+      "single_polygon_candidates": 7,
+      "ambiguous_polygon_candidates": 11,
+      "unresolved_records": 0,
+      "source": "HIFLD public-use Electric Retail Service Territories snapshot dated 2025-08-21, queried 2026-07-21",
+      "analytical_status": "provisional, low confidence, and excluded from forecast inputs pending provider, tariff, contract, and interconnection confirmation"
+    }
+  },
+  "source_dataset": {
+    "name": "Epoch AI — AI Data Centers",
+    "url": "https://epoch.ai/data/data-centers-documentation",
+    "license": "CC BY",
+    "accessed_at": "2026-07-21",
+    "upstream_record_count_at_access": 74,
+    "included_scope": "full 65-record U.S. source snapshot preserved; 18-record curated subset is rendered in the public interface"
+  },
+  "provenance_classes": [
+    "Observed",
+    "Reported",
+    "Verified derived",
+    "Estimated",
+    "Imputed",
+    "Forecast",
+    "Scenario output"
+  ],
+  "build_inputs": {
+    "source_code_commit": "uncommitted greenfield release",
+    "runtime": "browser-static TypeScript model",
+    "scenario_configuration": "src/data/catalog.ts",
+    "facility_snapshot": "src/data/catalog.ts"
+  },
+  "limitations": [
+    "Not a national census",
+    "Facility MW and H100 equivalents are estimates, not meter readings",
+    "Completion weights are demonstration priors pending hindcast calibration",
+    "Principal-aquifer and control-area polygons are spatial screening context, not confirmed service or supply relationships",
+    "Reported EIA, USGS, and drought conditions are context and do not automatically change model parameters",
+    "No policy or news item changes a forecast without primary text, effective dates, quantitative support, and reviewed GitHub approval"
+  ]
+}

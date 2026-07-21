@@ -1,0 +1,40 @@
+name: Weekday state-policy discovery
+
+on:
+  schedule:
+    - cron: "20 11 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.9.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Create public 50-state NCSL discovery snapshot
+        run: pnpm data:discover:policy-index
+      - name: Create immutable OpenStates candidate snapshot
+        run: pnpm data:discover:state-policies
+        env:
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/policy-discovery
+          delete-branch: true
+          commit-message: "data: add state-policy discovery snapshot"
+          title: "Review: weekday state-policy discovery"
+          body: |
+            Review-only OpenStates candidates. No item is published or model-active.
+            A reviewer must link controlling primary text, confirm legal status and dates, deduplicate mechanisms, and approve any quantitative effect separately.
+          labels: data-review,policy-review

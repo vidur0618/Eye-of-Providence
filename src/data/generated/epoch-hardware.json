@@ -1,0 +1,1634 @@
+{
+  "metadata": {
+    "generatedFrom": "data/raw/epoch-ai/2026-07-21",
+    "accessedAt": "2026-07-21",
+    "upstreamSha256": "aabdd04733c9b6dd254d7222200177f7a9e2edcb90b9a057883ad67e72987316",
+    "hardwareDeploymentCount": 137,
+    "provenance": "Estimated"
+  },
+  "facilities": {
+    "Amazon Madison Mega Site": [
+      {
+        "date": "2025-06-23",
+        "chipType": "Trainium2",
+        "units": 326555,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Amazon #confident",
+        "user": "Amazon #confident",
+        "notes": "Chip type assumed from Project Rainier announcement (Trainium2). 5 buildings operational. Count = buildings × chips per building, where chips per building = building power / (PUE × IT overhead factor × chip TDP).",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2028-03-15",
+        "chipType": "Trainium2",
+        "units": 783732,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Amazon #confident",
+        "user": "Amazon #confident",
+        "notes": "All 12 buildings operational. Same model as above.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Amazon Ridgeland": [
+      {
+        "date": "2026-05-15",
+        "chipType": "Trainium2",
+        "units": 261244,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Amazon #confident",
+        "user": "Amazon #confident",
+        "notes": "Chip type assumed from Project Rainier announcement (Trainium2). 4 buildings (type 1, 26 generators each) operational. Count = buildings × chips per building, where chips per building = generator-based power / (PUE × IT overhead × chip TDP).",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2028-09-29",
+        "chipType": "Trainium2",
+        "units": 763636,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Amazon #confident",
+        "user": "Amazon #confident",
+        "notes": "All 14 buildings. Buildings 1-4 have 26 generators each, buildings 5-14 have 28, giving different chip counts per building type.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Anthropic-Amazon New Carlisle": [
+      {
+        "date": "2025-06-23",
+        "chipType": "Trainium2",
+        "units": 457200,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "Amazon #confident",
+        "user": "Anthropic #confident",
+        "notes": "Project Rainier [announced](https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster) with Trainium2. In an [interview](https://www.youtube.com/watch?v=jwgW_gHI1Vs&t=220s), AWS CEO says \"they're already running...about 500,000 [Trainium2] chips in Indiana today\". Count = 7 × chips per building, where chips per building = generator-based power / (PUE × IT overhead × chip TDP).",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-12-23",
+        "chipType": "Trainium2",
+        "units": 718400,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Estimate",
+        "owner": "Amazon #confident",
+        "user": "Anthropic #confident",
+        "notes": "11 buildings operational. Same per-building model as above.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-03-23",
+        "chipType": "Trainium2",
+        "units": 1044980,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Estimate",
+        "owner": "Amazon #confident",
+        "user": "Anthropic #confident",
+        "notes": "16 buildings operational. Same model. In an [interview](https://www.youtube.com/watch?v=jwgW_gHI1Vs&t=220s), AWS CEO says \"we expect jointly we'll be running more than a million Trainium2 chips [in Indiana] by the end of [2025]\". We think this was delayed by a few months based on our satellite imagery.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-10-19",
+        "chipType": "Trainium2",
+        "units": 1044980,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Estimate",
+        "owner": "Amazon #confident",
+        "user": "Anthropic #confident",
+        "notes": "All 18 buildings operational. Same model.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Colossus 1": [
+      {
+        "date": "2025-07-22",
+        "chipType": "H100",
+        "units": 150000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "SpaceXAI #confident",
+        "notes": "This is roughly when Musk [said](https://archive.is/z39uN), plus on this date they [reported](https://x.ai/colossus) \"running jobs with 150K+ GPUs\".",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-07-22",
+        "chipType": "H200",
+        "units": 50000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "SpaceXAI #confident",
+        "notes": "This is roughly when Musk [said](https://archive.is/z39uN), plus on this date they [reported](https://x.ai/colossus) \"running jobs with 150K+ GPUs\".",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-07-22",
+        "chipType": "B200",
+        "units": 30000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "SpaceXAI #confident",
+        "notes": "[30k B200s added](https://archive.is/oHQSA) (in GB200 configuration).",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-06-01",
+        "chipType": "H200",
+        "units": 50000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "Anthropic #confident",
+        "notes": "https://www.anthropic.com/news/higher-limits-spacex. As of June, because they said \"within the month [of May]\"",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-06-01",
+        "chipType": "B200",
+        "units": 30000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "Anthropic #confident",
+        "notes": "https://www.anthropic.com/news/higher-limits-spacex. As of June, because they said \"within the month [of May]\"",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-06-01",
+        "chipType": "H100",
+        "units": 150000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "Anthropic #confident",
+        "notes": "https://www.anthropic.com/news/higher-limits-spacex. As of June, because they said \"within the month [of May]\"",
+        "provenance": "Estimated"
+      }
+    ],
+    "Colossus 2": [
+      {
+        "date": "2025-10-19",
+        "chipType": "B200",
+        "units": 110000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "SpaceXAI #confident",
+        "notes": "[xAI Memphis announcement](https://x.com/xAIMemphis/status/1947724711968051414)",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-04-06",
+        "chipType": "B300",
+        "units": 110000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "SpaceXAI #confident",
+        "notes": "[Company S-1 filing, page 76](https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm)",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-07-01",
+        "chipType": "B300",
+        "units": 330000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "SpaceXAI #confident",
+        "user": "SpaceXAI #confident",
+        "notes": "[Company S-1 filing, page 76](https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm)",
+        "provenance": "Estimated"
+      }
+    ],
+    "CoreWeave Chester VA": [
+      {
+        "date": "2024-01-31",
+        "chipType": "H100",
+        "units": 14800,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Partial CTP-01 estimate using 18 MW of IT power. H100 is my best guess for this 2024 capacity, but I did not find a Chester-specific chip disclosure.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-04-30",
+        "chipType": "H100",
+        "units": 22100,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Full CTP-01 estimate using the reported 27 MW critical capacity. Chip type and quantity are estimated from the power model.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-05-20",
+        "chipType": "B200",
+        "units": 26162,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Estimated Building 2 B200 count using Building 2’s share of modeled CTP-02/03 IT power.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-06-30",
+        "chipType": "B200",
+        "units": 41012,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Estimated combined B200 count for CTP-02 and CTP-03 using the modeled 85.71 MW of IT power. Uses the GB200 NVL72 fallback.",
+        "provenance": "Estimated"
+      }
+    ],
+    "CoreWeave Dalton 1 & 2": [
+      {
+        "date": "2026-02-20",
+        "chipType": "B300",
+        "units": 12750,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "",
+        "provenance": "Estimated"
+      }
+    ],
+    "CoreWeave Denton TX": [
+      {
+        "date": "2025-12-31",
+        "chipType": "B200",
+        "units": 16000,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "OpenAI #likely",
+        "notes": "Data Center Dynamics, citing The Information/internal comms, says Denton had more than 16,000 GPUs by the end of Dec 2025. I'm assuming they're Grace Blackwell GPUS based on later information. Use as minimum. (Data Center Dynamics)",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-03-02",
+        "chipType": "B200",
+        "units": 50000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "CoreWeave #confident",
+        "user": "OpenAI #likely",
+        "notes": "Core Scientific's Q4 2025 report said Denton was at roughly 130 billable MW and actively supporting more than 50,000 Grace Blackwell GPUs. Use as minimum. (MarketBeat)",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-06-30",
+        "chipType": "B200",
+        "units": 100000,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "OpenAI #likely",
+        "notes": "This is the estimated final CoreWeave AI load. Since it's disclosed to be >50,000 GPUs at ~130 MW, a safe estimate can be 100,000 GPUs at the full 260 MW. (MarketBeat)",
+        "provenance": "Estimated"
+      }
+    ],
+    "CoreWeave Ellendale ND": [
+      {
+        "date": "2025-10-27",
+        "chipType": "B200",
+        "units": 27300,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "First operational chip-count row. Applied Digital announced the first 50 MW phase of PF1 Building 1 reached Ready for Service on this date. Chip count is estimated as 50 MW × 546 B200/MW.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-11-24",
+        "chipType": "B200",
+        "units": 36900,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Building 1 reached full service on this date, but the chip count uses the sheet's cooling-based modeled Building 1 IT load of 67.7 MW instead of the officially disclosed 100 MW critical IT load.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-12-31",
+        "chipType": "B200",
+        "units": 118700,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Modeled date for Building 2 reaching full service. Chip count uses modeled Building 1 IT load plus the officially disclosed 150 MW for Building 2, for 217.7 MW total modeled IT load.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-06-01",
+        "chipType": "B200",
+        "units": 200500,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Modeled date for Building 3 reaching service around mid-2027. Chip count uses modeled Building 1 IT load plus 150 MW each for Buildings 2 and 3, for 367.7 MW total modeled IT load.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Coreweave Helios": [
+      {
+        "date": "2026-06-30",
+        "chipType": "B200",
+        "units": 63151,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "CoreWeave #confident",
+        "notes": "GB200 NVL72 assumed from rack density specs (130-140 kW, matching NVL72). Phase I (1 building, 200 MW). Count = reported facility power / PUE / IT overhead / server power × 72.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2028-01-01",
+        "chipType": "B200",
+        "units": 189452,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "CoreWeave #confident",
+        "notes": "Phase II complete (3 buildings, 600 MW). Same model.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2029-01-01",
+        "chipType": "B200",
+        "units": 252602,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "CoreWeave #confident",
+        "notes": "All phases complete (4 buildings, 800 MW). Same model. [Applied Digital corporate update](https://investor.galaxy.com/news-releases/news-release-details/applied-digital-provides-corporate-update-1)",
+        "provenance": "Estimated"
+      }
+    ],
+    "CoreWeave Marble NC": [
+      {
+        "date": "2026-03-13",
+        "chipType": "B200",
+        "units": 17200,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Core Scientific reported 37 MW operational and billing at Marble as of March 2026. Chip type and count are not disclosed for Marble. Estimate assumes GB200 NVL72 racks with 72 Blackwell GPUs per rack and 0.132 MW per rack. (Supplemental Core Scientific Information)",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-05-06",
+        "chipType": "B200",
+        "units": 31100,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Core Scientific reported Marble as fully handed over to CoreWeave at about 65 MW of leased customer power. Chip type and count are not disclosed for Marble. Estimate assumes GB200 NVL72 racks with 72 Blackwell GPUs per rack and 0.132 MW per rack. (Core Scientific Fiscal Q1 2026 Earnings Call)",
+        "provenance": "Estimated"
+      }
+    ],
+    "CoreWeave Muskogee OK": [
+      {
+        "date": "2026-12-31",
+        "chipType": "B300",
+        "units": 36000,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Estimate",
+        "owner": "CoreWeave #confident",
+        "user": "",
+        "notes": "Core Scientific says the leased 70 MW Muskogee building is designed for the Nvidia GB300 platform and targeted for Q2 2026 delivery. The exact chip count is not disclosed, so this estimates B300 GPUs from the disclosed IT load using an assumed all-in IT load per GPU. Owner is CoreWeave because Core Scientific says the site will host CoreWeave's NVIDIA GPUs. User is undisclosed because the customer was explicitly not named.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Crusoe Abilene Expansion": [
+      {
+        "date": "2027-09-17",
+        "chipType": "R200",
+        "units": 83713,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "NVIDIA #speculative",
+        "user": "Meta #speculative",
+        "notes": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center). R200 Expected in 2H2026, so should be shipping in high volume by the time Building 9-10 are operational. Rubin Ultra likely not ready in the required volume. Estimated from power capacity.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-11-11",
+        "chipType": "R200",
+        "units": 167426,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "NVIDIA #speculative",
+        "user": "Meta #speculative",
+        "notes": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center). R200 Expected in 2H2026, so should be shipping in high volume by the time Building 9-10 are operational. Rubin Ultra likely not ready in the required volume. Estimated from power capacity.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Fluidstack Lake Mariner": [
+      {
+        "date": "2025-10-01",
+        "chipType": "B200",
+        "units": 7852,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Core42 #confident",
+        "user": "G42 #likely",
+        "notes": "Chip type could be H200, but given the timing and use of liquid cooling, probably B200. [TeraWulf press release](https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center)",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-03-31",
+        "chipType": "B200",
+        "units": 28463,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Core42 #confident",
+        "user": "G42 #likely",
+        "notes": "Chip type could be H200, but given the timing and use of liquid cooling, probably B200. [TeraWulf press release](https://investors.terawulf.com/news-events/press-releases/detail/99/terawulf-to-deliver-over-70-mw-of-data-center)",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-05-31",
+        "chipType": "TPU v7",
+        "units": 25120,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Fluidstack #likely",
+        "user": "Anthropic #likely",
+        "notes": "Building 3. Leased to [Fluidstack](https://investors.terawulf.com/news-events/press-releases/detail/112/terawulf-signs-200-mw-10-year-ai-hosting-agreements-with), likely containing [Google TPUs](https://www.datacenterdynamics.com/en/news/google-offers-its-tpus-to-ai-cloud-providers-report/), likely used by [Anthropic](https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure). Assume TPU v7 (Ironwood), since v7 is expected to dominate TPU production by mid-2026 (see TPU_Production). Count = IT power / default AI chip IT overhead / TPU v7 TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Goodnight": [
+      {
+        "date": "2026-12-15",
+        "chipType": "B300",
+        "units": 49282,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #speculative",
+        "user": "Google #speculative",
+        "notes": "GB300 NVL72 assumed from similar design to Stargate Abilene and timing. Count = 103 MW IT power (from tax abatement agreement) / (IT overhead × server power) × 72.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-02-15",
+        "chipType": "B300",
+        "units": 98565,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #speculative",
+        "user": "Google #speculative",
+        "notes": "2 buildings operational. Same model, doubled.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-10-01",
+        "chipType": "R200",
+        "units": 199316,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #speculative",
+        "user": "Google #speculative",
+        "notes": "Buildings 3-6 use VR200 NVL72 (expected next-gen by operational date). Count = 4 buildings × chips per building, where per-building power is based on labeled blueprints in regulatory documents.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Arcola": [],
+    "Google Cedar Rapids": [],
+    "Google Columbus": [
+      {
+        "date": "2024-04-01",
+        "chipType": "TPU v5e",
+        "units": 99419,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q2 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-04-01",
+        "chipType": "TPU v5p",
+        "units": 27617,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q2 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-03-01",
+        "chipType": "TPU v6e",
+        "units": 78489,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 2 (Q2 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-03-01",
+        "chipType": "TPU v5p",
+        "units": 41425,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative through Building 2 (Q2 FY25 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-10-01",
+        "chipType": "TPU v6e",
+        "units": 176600,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative through Building 3 (Q4 FY25 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-10-01",
+        "chipType": "TPU v7",
+        "units": 12945,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 3 (Q4 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Council Bluffs (East)": [
+      {
+        "date": "2024-11-19",
+        "chipType": "TPU v5e",
+        "units": 60472,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "First operational capacity (Q1 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-11-19",
+        "chipType": "TPU v6e",
+        "units": 47741,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "First operational capacity (Q1 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-11-19",
+        "chipType": "TPU v5p",
+        "units": 25197,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "First operational capacity (Q1 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-06-15",
+        "chipType": "TPU v6e",
+        "units": 167093,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative (Q3 FY25 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Fort Wayne": [],
+    "Google Kansas City East": [],
+    "Google Lancaster": [
+      {
+        "date": "2024-01-01",
+        "chipType": "TPU v5e",
+        "units": 157105,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q1 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-01-01",
+        "chipType": "TPU v5p",
+        "units": 7273,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q1 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-10-31",
+        "chipType": "TPU v7",
+        "units": 10228,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 2 (Q4 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-10-31",
+        "chipType": "TPU v6e",
+        "units": 77519,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 2 (Q4 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Lincoln": [],
+    "Google Mesa": [
+      {
+        "date": "2025-07-01",
+        "chipType": "TPU v6e",
+        "units": 135846,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q3 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Midlothian": [],
+    "Google New Albany": [
+      {
+        "date": "2024-04-20",
+        "chipType": "TPU v5e",
+        "units": 103956,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q2 FY24 production mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and per-chip TDP from Parameters.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-04-20",
+        "chipType": "TPU v5p",
+        "units": 28877,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q2 FY24 production mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and per-chip TDP from Parameters.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-09-13",
+        "chipType": "TPU v6e",
+        "units": 14362,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "First deployed in Building 2 (Q4 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and per-chip TDP from Parameters.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-09-13",
+        "chipType": "TPU v5p",
+        "units": 65935,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative through Building 2 (Q4 FY24 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and per-chip TDP from Parameters.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-09-13",
+        "chipType": "TPU v5e",
+        "units": 192897,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative through Building 2 (Q4 FY24 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and per-chip TDP from Parameters.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-06-01",
+        "chipType": "TPU v6e",
+        "units": 134049,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative through Building 3 (Q3 FY25 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and per-chip TDP from Parameters.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-10-14",
+        "chipType": "TPU v6e",
+        "units": 262285,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative through Building 4 (Q4 FY25 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and per-chip TDP from Parameters.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-10-14",
+        "chipType": "TPU v7",
+        "units": 16920,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "First deployed in Building 4 (Q4 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and per-chip TDP from Parameters.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Omaha": [
+      {
+        "date": "2024-04-08",
+        "chipType": "TPU v5e",
+        "units": 120879,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q2 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-04-08",
+        "chipType": "TPU v5p",
+        "units": 33578,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 (Q2 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-11-19",
+        "chipType": "TPU v5e",
+        "units": 181319,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative through Building 2 (Q1 FY25 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-11-19",
+        "chipType": "TPU v5p",
+        "units": 58761,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Cumulative through Building 2 (Q1 FY25 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-11-19",
+        "chipType": "TPU v6e",
+        "units": 47716,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 2 (Q1 FY25 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Papillion": [
+      {
+        "date": "2023-01-23",
+        "chipType": "TPU v4",
+        "units": 194429,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google Cloud #confident",
+        "user": "Google #likely",
+        "notes": "Building 1 (Q1 FY23 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2023-01-23",
+        "chipType": "TPU v5e",
+        "units": 35553,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google Cloud #confident",
+        "user": "Google #likely",
+        "notes": "Building 1 (Q1 FY23 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-08-03",
+        "chipType": "TPU v6e",
+        "units": 28629,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google Cloud #confident",
+        "user": "Google #likely",
+        "notes": "Buildings 2-3 (Q4 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-08-03",
+        "chipType": "TPU v5e",
+        "units": 177290,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google Cloud #confident",
+        "user": "Google #likely",
+        "notes": "Cumulative through Buildings 2-3 (Q4 FY24 mix for new capacity). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-08-03",
+        "chipType": "TPU v5p",
+        "units": 73871,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google Cloud #confident",
+        "user": "Google #likely",
+        "notes": "Buildings 2-3 (Q4 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Pryor (North)": [
+      {
+        "date": "2024-07-19",
+        "chipType": "TPU v5p",
+        "units": 27959,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "First operational capacity (Q3 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2024-07-19",
+        "chipType": "TPU v5e",
+        "units": 67102,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "First operational capacity (Q3 FY24 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Red Oak": [
+      {
+        "date": "2025-08-25",
+        "chipType": "TPU v6e",
+        "units": 87420,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Building 1 (Q4 FY25 production mix). Chip type and quantity derived from Timeline power, TPU production shares, and per-chip TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-08-25",
+        "chipType": "TPU v7",
+        "units": 11535,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Building 1 (Q4 FY25 production mix). Chip type and quantity derived from Timeline power, TPU production shares, and per-chip TDP.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google Storey County": [
+      {
+        "date": "2023-08-30",
+        "chipType": "TPU v5e",
+        "units": 205463,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 1 expansion (Q4 FY23 mix: v5e only), assuming it was fully retrofitted with TPUv5e.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-06-30",
+        "chipType": "TPU v6e",
+        "units": 121656,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Google #confident",
+        "user": "Google DeepMind #likely",
+        "notes": "Building 2 (Q3 FY25 mix: v6e only). Delta from Building 1 IT power.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Google The Dalles": [
+      {
+        "date": "2025-03-07",
+        "chipType": "TPU v6e",
+        "units": 93248,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Building 1 (Q2 FY25 production mix). Chip type and quantity derived from Timeline power, TPU production, and per-chip TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-03-07",
+        "chipType": "TPU v5p",
+        "units": 16405,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Building 1 (Q2 FY25 production mix). Chip type and quantity derived from Timeline power, TPU production, and per-chip TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-04-29",
+        "chipType": "TPU v5p",
+        "units": 16404,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Building 1+2 cumulative v5p: all from Building 1 (Q2 FY25 mix). Building 2 (Q1 FY26 mix) adds no v5p, so this is unchanged from Building 1.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-04-29",
+        "chipType": "TPU v6e",
+        "units": 119473,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Building 1+2 cumulative v6e: Building 1 (Q2 FY25 mix) plus Building 2's v6e share (Q1 FY26 mix). Chip type and quantity derived from Timeline power, TPU_Production shares, and Parameters TDP.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-04-29",
+        "chipType": "TPU v7",
+        "units": 35757,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Building 2 (comes online 2026-04-29). Chip type/quantity from the Q1 FY26 production mix (v6e + v7), applied to Building 2's incremental IT power. Q2 FY26 is extrapolated with no chip breakdown, so Q1 FY26 (last real quarter) is used, following the Google Arcola approach.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Aiken": [
+      {
+        "date": "2026-07-15",
+        "chipType": "B300",
+        "units": 64098,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Meta #confident",
+        "owner": "Meta #confident",
+        "user": "Assumed based on chip ownership data, number calculated from estimated IT power",
+        "notes": "",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Cheyenne": [
+      {
+        "date": "2026-07-25",
+        "chipType": "B300",
+        "units": 68367,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Assumed based on chip ownership data, number calculated from estimated IT power",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-02-15",
+        "chipType": "B300",
+        "units": 99382,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Assumed based on chip ownership data, number calculated from estimated IT power",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Eagle Mountain": [
+      {
+        "date": "2025-12-07",
+        "chipType": "B300",
+        "units": 59906,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "B300 NVL72 assumed from commissioning timeline and estimates from https://epoch.ai/data/ai-chip-owners. Count = Total IT power / IT overhead / server power x 72.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Gallatin": [
+      {
+        "date": "2026-06-15",
+        "chipType": "B300",
+        "units": 39453,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "GB300 NVL72 assumed from commissioning timeline and estimates from https://epoch.ai/data/ai-chip-owners . Count = Total IT power / IT overhead / server power x 72.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Hyperion": [
+      {
+        "date": "2028-01-01",
+        "chipType": "R200",
+        "units": 309228,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "VR200 NVL72 assumed based on expected availability by 2028 (1 year after release). Count = total facility power / (PUE × IT overhead × VR200 server power) × 72. 9 buildings in first phase, 2262 MW.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Jeffersonville": [
+      {
+        "date": "2026-03-06",
+        "chipType": "B300",
+        "units": 80486,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "GB300 NVL72 assumed from commissioning timeline and estimates from https://epoch.ai/data/ai-chip-owners. Count = Total IT power / IT overhead / server power x 72.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Kuna": [
+      {
+        "date": "2026-06-01",
+        "chipType": "B300",
+        "units": 68571,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Presumably the same as Meta Temple, and the most sold chip in Q4 2025 by a small margin.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Los Lunas": [
+      {
+        "date": "2026-03-01",
+        "chipType": "B300",
+        "units": 39453,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "GB300 NVL72 assumed from commissioning timeline and estimates from https://epoch.ai/data/ai-chip-owners . Count = Total IT power / IT overhead / server power x 72.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Montgomery": [
+      {
+        "date": "2026-06-18",
+        "chipType": "B300",
+        "units": 69074,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Assumed based on chip ownership data, number calculated from estimated IT power",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-01-02",
+        "chipType": "B300",
+        "units": 161283,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Assumed based on chip ownership data, number calculated from estimated IT power",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-02-23",
+        "chipType": "B300",
+        "units": 92209,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Assumed based on chip ownership data, number calculated from estimated IT power",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Prometheus": [
+      {
+        "date": "2025-10-14",
+        "chipType": "B200",
+        "units": 36364,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Buildings 4-10 come online. B200 count = (total power at this date minus H-shaped buildings power) / (PUE × IT overhead × GB200 server power) × 72. Includes Meta, QTS, and Vantage buildings.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-02-27",
+        "chipType": "B200",
+        "units": 195363,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Adds Building 16 (Vantage). Same model, updated total power.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-05-18",
+        "chipType": "B200",
+        "units": 268973,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Adds Meta tent buildings 11-15. Same model, updated total power.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-05-28",
+        "chipType": "B200",
+        "units": 301951,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Adds Building 17 (Vantage). Same model, updated total power.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-08-26",
+        "chipType": "B200",
+        "units": 334928,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Adds Building 18 (Vantage). Same model, updated total power.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-10-01",
+        "chipType": "B200",
+        "units": 408539,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Adds Buildings 19-24 (Meta tents), powered by Socrates South and North gas plants (each 200 MW). Same model.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Rosemount": [
+      {
+        "date": "2025-04-29",
+        "chipType": "B200",
+        "units": 85364,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "GB200 NVL72 assumed from commissioning timeline and Chip Owners estimates: https://epoch.ai/data/ai-chip-owners. Count = Total IT power / IT overhead / server power x 72.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Sarpy": [
+      {
+        "date": "2026-08-02",
+        "chipType": "B300",
+        "units": 36300,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "GB300 NVL72 assumed from commissioning timeline and estimates from https://epoch.ai/data/ai-chip-owners . Count = Total IT power / IT overhead / server power x 72.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Meta Temple": [
+      {
+        "date": "2025-12-09",
+        "chipType": "B300",
+        "units": 68571,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "GB300 NVL72 assumed from commissioning timeline (Q3-Q4 2025, when GB300 shipments exceeded GB200). Count = (Building 1 + Building 2 IT capacity) / IT overhead / server power × 72.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-09-30",
+        "chipType": "B300",
+        "units": 80139,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Meta #confident",
+        "user": "Meta #confident",
+        "notes": "Adds Building 3. Same model, adding Building 3 IT capacity (estimated from tent design power, ~40 MW total / PUE).",
+        "provenance": "Estimated"
+      }
+    ],
+    "Microsoft Fairwater Atlanta": [
+      {
+        "date": "2025-10-14",
+        "chipType": "B200",
+        "units": 153563,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "GB200 NVL72 assumed from similarity to Microsoft Fairwater Wisconsin. Count = (Building 2/4 + Building 1 facility power) / PUE / IT overhead / server power × 72. Buildings 1-2 operational (paired Fairwater design).",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-06-14",
+        "chipType": "B200",
+        "units": 304279,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "All 4 buildings. Same model using total facility power.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Microsoft Fairwater Wisconsin": [
+      {
+        "date": "2026-04-16",
+        "chipType": "B200",
+        "units": 176391,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "GB200 NVL72 confirmed by Microsoft ([blog post](https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/)). Building 1. Count based on estimated IT power and FP8 performance model, using the standardized GB200 NVL72 server assumed values and B200 per-chip performance. This is consistent with Microsoft's statement that Fairwater uses \"hundreds of thousands of NVIDIA GB200s\" ([Satya Nadella](https://x.com/satyanadella/status/1968677244861379012)).",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-02-20",
+        "chipType": "B200",
+        "units": 352782,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "2 buildings operational. Same model based on estimated IT power.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2028-05-13",
+        "chipType": "B200",
+        "units": 1791897,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "Full chip estimate for 11 buildings operational. Count derived from the final projected FP8 performance for Buildings 1-11 using the standardized B200 per-chip performance.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2028-05-13",
+        "chipType": "B200",
+        "units": 1791897,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "Full chip estimate for 11 buildings operational. Count derived from the final projected FP8 performance for Buildings 1-11 using the standardized B200 per-chip performance.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Microsoft Goodyear": [
+      {
+        "date": "2023-04-24",
+        "chipType": "H100",
+        "units": 29151,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "H100 assumed from operational date (Q2 2023). Count = IT capacity / H100 HGX server power × 8 chips per server.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-01-16",
+        "chipType": "H100",
+        "units": 58302,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "Building 2 also H100. Count = cumulative H100s across Buildings 1 and 2, each derived from IT capacity / server power × 8.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-09-01",
+        "chipType": "B200",
+        "units": 58121,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "Microsoft #confident",
+        "notes": "GB200 NVL72 assumed from operational date (Q3 2025) and insufficient cooling for B200 power density. Count = 2 buildings × chips per building, from chiller-based IT capacity / server power × 72.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Microsoft Project Osmium": [
+      {
+        "date": "2021-01-01",
+        "chipType": "A100",
+        "units": 25000,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "OpenAI #speculative",
+        "notes": "[Semianalysis](https://newsletter.semianalysis.com/p/microsofts-ai-strategy-deconstructed) believes \"~25k A100 chips\" are in Building 1, taking 2/5 data halls in the building. ",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2023-06-30",
+        "chipType": "H100",
+        "units": 32680,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "OpenAI #speculative",
+        "notes": "Type estimated based on chip sales data. # of units estimated based on power for Building 2.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-03-01",
+        "chipType": "B200",
+        "units": 45455,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "OpenAI #speculative",
+        "notes": "Type estimated based on chip sales data. # of units estimated based  on power for Building 3-4",
+        "provenance": "Estimated"
+      }
+    ],
+    "Microsoft SAT14": [
+      {
+        "date": "2024-07-01",
+        "chipType": "H100",
+        "units": 12963,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "",
+        "notes": "Type estimated based on chip sales data. # of units estimated based on power for completed portions of Building 1.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-03-31",
+        "chipType": "B300",
+        "units": 12750,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "",
+        "notes": "Type estimated based on chip sales data. # of units estimated based on power for Building 2 and the rest of Building 1 that was completed since initial operation.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Microsoft SAT40": [
+      {
+        "date": "2024-05-24",
+        "chipType": "H100",
+        "units": 32407,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "",
+        "notes": "Type estimated based on chip sales data. # of units estimated based on power for Building 1.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2025-12-01",
+        "chipType": "B300",
+        "units": 12750,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Microsoft #confident",
+        "user": "",
+        "notes": "Type estimated based on chip sales data. # of units estimated based on power for Building 2.",
+        "provenance": "Estimated"
+      }
+    ],
+    "OpenAI Stargate Abilene": [
+      {
+        "date": "2025-09-26",
+        "chipType": "B200",
+        "units": 100800,
+        "chipTypeSource": "Company disclosure",
+        "unitsSource": "Company disclosure",
+        "owner": "Oracle #confident",
+        "user": "OpenAI #confident",
+        "notes": "[Crusoe Impact Report 2024, p.19](https://cdn.prod.website-files.com/6855c1aa175582ee23e0aa19/68710273a71bb7c11049ba28_Crusoe_Impact_Report_2024.pdf#page=19)",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-05-23",
+        "chipType": "B300",
+        "units": 100800,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Oracle #confident",
+        "user": "OpenAI #confident",
+        "notes": "Building design is the same but the chillers are slightly larger, suggesting the same number of servers but slightly more power per server. This is consistent with B300, as is the timing with B300 chip sales ramping up.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2026-11-01",
+        "chipType": "B300",
+        "units": 302400,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Oracle #confident",
+        "user": "OpenAI #confident",
+        "notes": "Buildings 5-8 come online, bringing total B300 buildings to 6. Same building design as B200 buildings but slightly larger chillers suggest same server count with higher power per server, consistent with B300 and timing of B300 chip sales ramp.",
+        "provenance": "Estimated"
+      }
+    ],
+    "OpenAI Stargate Lordstown": [],
+    "OpenAI Stargate Michigan": [],
+    "OpenAI Stargate Milam": [],
+    "OpenAI Stargate New Mexico": [],
+    "OpenAI Stargate Shackelford": [
+      {
+        "date": "2027-08-15",
+        "chipType": "R200",
+        "units": 34880,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Oracle #confident",
+        "user": "OpenAI #confident",
+        "notes": "VR200 NVL72 assumed based on expected availability by 2027. Building 1 (140 MW IT). Count = IT power / (IT overhead × VR200 server power) × 72.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2028-03-08",
+        "chipType": "R200",
+        "units": 174402,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Oracle #confident",
+        "user": "OpenAI #confident",
+        "notes": "5 buildings operational (700 MW IT). Same per-building model.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2028-11-11",
+        "chipType": "R300",
+        "units": 147368,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "Oracle #confident",
+        "user": "OpenAI #confident",
+        "notes": "Buildings 6-10 expected to use Rubin Ultra NVL576, based on expected availability by late 2028. Count = 5 buildings × IT power per building / (IT overhead × Rubin Ultra server power) × 144 chips per server.",
+        "provenance": "Estimated"
+      }
+    ],
+    "OpenAI Stargate Wisconsin": [],
+    "QTS Cedar Rapids": [
+      {
+        "date": "2026-11-15",
+        "chipType": "R200",
+        "units": 111585,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "VR200 NVL72 assumed based on expected availability at time of operation (late 2026). Buildings 1-3. Count from air-cooled chiller fan count model for IT capacity / (IT overhead × server power) × 72.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-11-15",
+        "chipType": "R300",
+        "units": 144303,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Rubin Ultra NVL576 for buildings 4-7, assumed from expected availability (late 2027). Count from chiller-based IT capacity / (IT overhead × server power) × 144.",
+        "provenance": "Estimated"
+      }
+    ],
+    "QTS Richmond 1": [],
+    "QTS Richmond 2": [],
+    "QTS Richmond 3": [],
+    "STACK Infrastructure NVA02": [
+      {
+        "date": "2024-10-01",
+        "chipType": "H100",
+        "units": 60911,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "H100 assumed from 62% market share in Q2 2024 and 8 chips per server (HGX form factor). Count = IT capacity (from air-cooled chiller fan count model) / server power × 8 chips per server.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Stream Phoenix": [
+      {
+        "date": "2026-05-01",
+        "chipType": "H100",
+        "units": 46112,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "This is for building 1; the shell is complete, and it should be operational as of this date.  H100 stub retained but no count available.",
+        "provenance": "Estimated"
+      }
+    ],
+    "Vantage TX1": [
+      {
+        "date": "2026-02-15",
+        "chipType": "B200",
+        "units": 15311,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "GB200 NVL72 assumed. Building 1 reported IT power of 32 MW (TDLR). Count = IT power / (IT overhead × server power) × 72.",
+        "provenance": "Estimated"
+      },
+      {
+        "date": "2027-08-31",
+        "chipType": "B200",
+        "units": 61244,
+        "chipTypeSource": "Estimate",
+        "unitsSource": "Estimate",
+        "owner": "",
+        "user": "",
+        "notes": "Adds Building 2 (96 MW reported IT power, TDLR). Same model, cumulative.",
+        "provenance": "Estimated"
+      }
+    ]
+  }
+}

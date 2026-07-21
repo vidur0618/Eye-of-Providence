@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "asOf": "2026-07-21",
+    "modelVersion": "kop-forecast-0.1.0",
+    "generatedBy": "scripts/check-calibration-readiness.mjs",
+    "status": "blocked-insufficient-historical-evidence",
+    "calibrationClaimAllowed": false
+  },
+  "evidence": {
+    "frozenEpochSnapshotDates": [
+      "2026-07-21"
+    ],
+    "independentOutcomeFiles": [],
+    "currentSnapshotTimelineRowsExcludedAsHindcasts": true,
+    "exclusionReason": "Historical-looking rows inside a current upstream snapshot may contain retrospective knowledge and are not independent as-of forecasts."
+  },
+  "criteria": [
+    {
+      "id": "historical-cutoffs",
+      "label": "At least three independently frozen historical source cutoffs",
+      "required": 3,
+      "observed": 1,
+      "passed": false
+    },
+    {
+      "id": "subsequent-outcomes",
+      "label": "At least one independent subsequent-outcome release",
+      "required": 1,
+      "observed": 0,
+      "passed": false
+    },
+    {
+      "id": "minimum-cohort",
+      "label": "At least 30 resolved project outcomes after leakage checks",
+      "required": 30,
+      "observed": 0,
+      "passed": false
+    }
+  ],
+  "implementedMetrics": [
+    "mean absolute capacity error",
+    "Brier score",
+    "interval coverage",
+    "mean absolute timing error",
+    "Spearman regional rank correlation",
+    "parent-child reconciliation relative error"
+  ],
+  "releaseDecision": "Do not label forecast intervals calibrated or fit completion weights from this release. Preserve more historical cutoffs and independent outcomes first."
+}

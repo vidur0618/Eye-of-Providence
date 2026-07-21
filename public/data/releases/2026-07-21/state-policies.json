@@ -1,0 +1,1269 @@
+{
+  "metadata": {
+    "schemaVersion": "state-policies.v1",
+    "releaseDate": "2026-07-21",
+    "stateCount": 50,
+    "instrumentCount": 38,
+    "modelEffectCount": 0,
+    "discoverySource": "https://docs.openstates.org/api-v3/",
+    "discoveryIndexes": [
+      "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "https://www.ncsl.org/energy/ncsl-2025-state-legislative-energy-trends-report"
+    ],
+    "publicIndexUpdated": "April 01, 2026",
+    "analyticalStatus": "The release exposes a 50-state secondary discovery index. Candidates are not legal findings and no state policy effect is approved."
+  },
+  "coverage": [
+    {
+      "state": "AL",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-al"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "AK",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "AZ",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-az"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "AR",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ar"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "CA",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "CO",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "CT",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ct"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "DE",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "FL",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-fl"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "GA",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ga"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "HI",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "ID",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-id"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "IL",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-il"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "IN",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-in"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "IA",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ia"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "KS",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ks"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "KY",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ky"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "LA",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-la"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "ME",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "MD",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-md"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "MA",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ma"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "MI",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-mi"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "MN",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-mn"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "MS",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ms"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "MO",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-mo"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "MT",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-mt"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "NE",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ne"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "NV",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-nv"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "NH",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "NJ",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-nj"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "NM",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "NY",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ny"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "NC",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-nc"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "ND",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-nd"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "OH",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-oh"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "OK",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ok"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "OR",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "PA",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-pa"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "RI",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "SC",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-sc"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "SD",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "TN",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-tn"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "TX",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-tx"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "UT",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-ut"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "VT",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's secondary index reports no dedicated state incentive. This is not a primary legal finding and does not cover bills, tariffs, dockets, local law, agency decisions, or announcements."
+    },
+    {
+      "state": "VA",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-va"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "WA",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-wa"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "WV",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-wv"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "WI",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-wi"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "Priority facility state. NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    },
+    {
+      "state": "WY",
+      "coverageStatus": "discovery-pending",
+      "reviewedInstrumentIds": [],
+      "candidateInstrumentIds": [
+        "ncsl-tax-incentive-wy"
+      ],
+      "lastReviewed": null,
+      "freshness": "current",
+      "note": "NCSL's April 01, 2026 secondary index flags a dedicated incentive; controlling text and current legal status still require primary-source review."
+    }
+  ],
+  "instruments": [
+    {
+      "id": "ncsl-tax-incentive-al",
+      "mechanismId": "ncsl-tax-incentive:AL",
+      "state": "AL",
+      "title": "Alabama data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://alison.legislature.state.al.us/code-of-alabama?section=40-9B-1",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Tangible property used is exempt, including infrastructure · No · Yes: For non-education state, county, and city property taxes, up to 30 years · Ala. Code § 40-9B-1 et seq. Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-az",
+      "mechanismId": "ncsl-tax-incentive:AZ",
+      "state": "AZ",
+      "title": "Arizona data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.azleg.gov/ars/41/01519.htm",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes, \"deduction of gross proceeds of sale or gross income from sale, use, installation, assembly, repair or mainetnace of computer data center equipment · No · No · Requires certification by the Arizona Commerce Authority · Ariz. Rev. Stat. § 41-1519 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ar",
+      "mechanismId": "ncsl-tax-incentive:AR",
+      "state": "AR",
+      "title": "Arkansas data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2FACT548.pdf",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: data center equipment and services, including construction and refurbishment, are exempt · Yes: \"Electricity used\" is exempt from taxation · No · Threshold for investment was reduced from $500 million to $100 million in 2025; data centers must receive a \"positive cost-benefit analysis\" · Ark. Code § 26-52-456 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ct",
+      "mechanismId": "ncsl-tax-incentive:CT",
+      "state": "CT",
+      "title": "Connecticut data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://cga.ct.gov/2021/ACT/PA/PDF/2021PA-00001-R00HB-06514-PA.PDF32-286",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Buildings and structures, technology, and renovation costs are exempted · Yes: \"all electricity used by a qualified data center\" is exempt · Yes: Data centers receive \"exemption from the tax imposed under chapter 203 [property tax] of the general statutes.\" · Community benefit agreement required with host municipalities in lieu of property tax payments · Conn. Gen. Stat. § 32-286 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-fl",
+      "mechanismId": "ncsl-tax-incentive:FL",
+      "state": "FL",
+      "title": "Florida data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0212/Sections/0212.08.html",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes, \"Data center property\" is exempt, inlcuding property used in construction and cooling · Yes: \"The term [data center property] also includes electricity used exclusively at a data center.\" · No · Fla. Stat. § 212.08(5)(r) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ga",
+      "mechanismId": "ncsl-tax-incentive:GA",
+      "state": "GA",
+      "title": "Georgia data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://dor.georgia.gov/data-centers-sales-use-tax-exemption-aggregate-expenditures-county",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"high-technology data center equipment\" is exempt, including technology and other materials, like generators and cooling systems · No · No · Offc. Code Ga. Ann. § 48-8-3(68.1) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-id",
+      "mechanismId": "ncsl-tax-incentive:ID",
+      "state": "ID",
+      "title": "Idaho data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://legislature.idaho.gov/statutesrules/idstat/Title63/T63CH36/SECT63-3622VV/",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"Eligible server equipment\" for new data centers is exempt · No · Yes, partially: \"The amount of the taxable market value of new construction shall not include any property…[exempted] from sales tax…\" · Idaho Stat. § 63-3622VV Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-il",
+      "mechanismId": "ncsl-tax-incentive:IL",
+      "state": "IL",
+      "title": "Illinois data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.ilga.gov/documents/legislation/ilcs/documents/002006050K605-1025.htm",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"qualified tangible personal property\" is exempt, including electrical, cooling, plumbing, and tech systens, and building materials · No · No · Data center owners and operators also receive a tax credit for 20% of wages paid to construction workers in certain areas · 20 ILCS 605/605-1025 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-in",
+      "mechanismId": "ncsl-tax-incentive:IN",
+      "state": "IN",
+      "title": "Indiana data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": null,
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"for the development, acquisition, construction, and operation of a facility to be used as a qualified data center\" · Yes: \" All electricity used by qualified data center equipment, excluding electricity used in the administration of the facility.\" · Yes: Indiana counties and cities may choose to grant personal property tax exemptions to data centers · Burns Ind. Code Ann. §§ 6-2.5-15-3, 6-1.1-10-44 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ia",
+      "mechanismId": "ncsl-tax-incentive:IA",
+      "state": "IA",
+      "title": "Iowa data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.legis.iowa.gov/docs/code/423.3.pdf",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"The sales price from the sale of computers and equipment that are necessary for ... a data center business\", and \"site preparation activities\" · Yes: Indefinite exemption for data centers before June 2025; thereafter 10 or 15 year exemption depending on county population · Yes: Data center computer equipment not subject to property tax · Data center must also be at least 5,000 square feet · Iowa Code § 423.3(95) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ks",
+      "mechanismId": "ncsl-tax-incentive:KS",
+      "state": "KS",
+      "title": "Kansas data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://ksrevisor.gov/statutes/chapters/ch79/079_036_0006.html",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Including land, buildings, site improvements, and data center equipment, including software · No, electricity specifically excluded · No · Ks. Stat. Ann. § 79-3606 (xxxx) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ky",
+      "mechanismId": "ncsl-tax-incentive:KY",
+      "state": "KY",
+      "title": "Kentucky data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56356",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: sales and use tax, mostly for computer equipment · No · No · Ky. Rev. Stat. § 154.20-220, et seq. Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-la",
+      "mechanismId": "ncsl-tax-incentive:LA",
+      "state": "LA",
+      "title": "Louisiana data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.legis.la.gov/legis/Law.aspx?d=1186787",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"Louisiana state and local sales and use taxes shall not apply to eligible data center equipment\" · No · No · La. Rev. Stat. § 47:305.73 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-md",
+      "mechanismId": "ncsl-tax-incentive:MD",
+      "state": "MD",
+      "title": "Maryland data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": null,
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"Qualified data center personal property\" is exempt, including computers, software, cooling systems, and generators · No, specifically excluded by Comptroller's regulations · Yes: Counties and municipalities may, by statute, reduce or eliminate property taxes for data centers · Md. Code Ann., Tax-Gen § 11–239; Tax-Prop. §7–248 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ma",
+      "mechanismId": "ncsl-tax-incentive:MA",
+      "state": "MA",
+      "title": "Massachusetts data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.mass.gov/info-details/400-cmr-900-qualified-data-centers",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Data center equipment, including computer software, and construction costs, including for refurbishment, are exempt · Yes: \"electricity for use or consumption in the operation of a Qualified Data Center\" is exempt · No · Whole site of data centers must be at least 100,000 square feet · 64H Mass. Ann. Laws § 6(zz) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-mi",
+      "mechanismId": "ncsl-tax-incentive:MI",
+      "state": "MI",
+      "title": "Michigan data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-205-54ee",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Data center equipment is exempt, including for construction and repairs · No · No, and cannot receive local tax abatements to qualify · Data centers must create at least 1,000 jobs statewide by 2026 to receive the incentive · Mich. Comp. Laws § 205.54ee Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-mn",
+      "mechanismId": "ncsl-tax-incentive:MN",
+      "state": "MN",
+      "title": "Minnesota data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.revisor.mn.gov/statutes/cite/297a.68",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Computer equipment and software is exempt · Yes: Modified in 2025 to exclude hyperscale data centers from the electricity benefit · No · Data center must be at least 25,000 square feet · 17 Minn. Stat. 297A.68(42) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ms",
+      "mechanismId": "ncsl-tax-incentive:MS",
+      "state": "MS",
+      "title": "Mississippi data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": null,
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Both equipment and software are exempt for new and expanding data centers · No · Yes: Local authorities may grant 10-year exemptions for data center assets · Also offers income and franchise tax incentives · Miss. Code § 57-113-21 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-mo",
+      "mechanismId": "ncsl-tax-incentive:MO",
+      "state": "MO",
+      "title": "Missouri data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=144.810",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes, including \"All machinery, equipment, and computers\" and all property used in constructing new data centers · Yes: Utilities, including electricty and gas, are exempt from taxation · No · Receives annual refund instead of exemption certificate · Mo. Rev. Stat. § 144.810 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-mt",
+      "mechanismId": "ncsl-tax-incentive:MT",
+      "state": "MT",
+      "title": "Montana data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://archive.legmt.gov/bills/mca/title_0150/chapter_0060/part_0010/section_0620/0150-0060-0010-0620.html",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "No state sales tax · N/A · Yes, special tax rate of 0.9% assessed value · Data center must be at least 25,000 square feet · Mont. Code Ann. 15-6-162 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ne",
+      "mechanismId": "ncsl-tax-incentive:NE",
+      "state": "NE",
+      "title": "Nebraska data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.nebraskalegislature.gov/laws/statutes.php?statute=77-2704.62",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Sources differ as to the nature of the exemption, but statute specifies that tangible personal property \"incorporated\" into data centers is exempt · No · No · Neb. Rev. Stat. § 77-2704.62 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-nv",
+      "mechanismId": "ncsl-tax-incentive:NV",
+      "state": "NV",
+      "title": "Nevada data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.leg.state.nv.us/nrs/nrs-360.html#NRS360Sec754",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Sales and use tax may be reduced to 2% · Yes: Electricity receives the sales tax incentive · Yes: Up to 75% of personal property tax abated · At least 50% of construction workers must be Nevada residents · Nev. Rev. Stat. 360.754 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-nj",
+      "mechanismId": "ncsl-tax-incentive:NJ",
+      "state": "NJ",
+      "title": "New Jersey data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.njeda.gov/wp-content/uploads/2024/09/S3432-Next-New-Jersey-AI-Data-Centers-Bill-signed-by-Gov-July-25th-2024.pdf",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "New Jersey offers a special tax incentive for AI businsses, including data centers, under the \"New Jersey Next Program.\" This includes a tax credit of 25% of capital investment, up to $250 million · Amended its incentive in 2026 to require prevailing wage payments to contractors during construction. · S3432-Next-New-Jersey-AI-Data-Centers-Bill-signed-by-Gov-July-25th-2024.pdf Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ny",
+      "mechanismId": "ncsl-tax-incentive:NY",
+      "state": "NY",
+      "title": "New York data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/TAX/1115",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Sales and use tax exemption for \"machinery, equipment, and certain other tangible personal property\" · No · No · Data center must have uninterrupted internet access · Tax Law, Section 1115(a)(37) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-nc",
+      "mechanismId": "ncsl-tax-incentive:NC",
+      "state": "NC",
+      "title": "North Carolina data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.ncleg.net/enactedlegislation/statutes/html/bysection/chapter_105/gs_105-164.13.html",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Sales and use tax exemption for software, machinery, and support equipment · Yes: “electricity for use at a qualifying data center…\" is exempt · No · N.C. Gen. Stat. § 105-164.13(55a) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-nd",
+      "mechanismId": "ncsl-tax-incentive:ND",
+      "state": "ND",
+      "title": "North Dakota data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://ndlegis.gov/cencode/t57c39-2.pdf#page=27",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Sales and use tax exemption · No · No · Must be at least 15,000 square feet · N.D. Cent. Code § 57-39.2-04.17 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-oh",
+      "mechanismId": "ncsl-tax-incentive:OH",
+      "state": "OH",
+      "title": "Ohio data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://codes.ohio.gov/ohio-revised-code/section-122.175",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Complete or partial exemption Sales and use tax exemption for tangible personal property, including construction · No · No · The taxpayers receives an annual direct payment from the tax commissioner, rather than a certificate of exemption · Ohio Rev. Code § 122.175 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ok",
+      "mechanismId": "ncsl-tax-incentive:OK",
+      "state": "OK",
+      "title": "Oklahoma data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os68.pdf#page=543",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Software, hardware, and other machinery is exempt · Yes: For data centers with certain NAICS codes · Yes: New investments in real property are exempt; the state covers the first five years of property tax · Data centers may also receive a partial cash rebate for their payroll; most data center sales must come from out of state · Okla. Stat. Ann. § 68 -1357v2 - 21 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-pa",
+      "mechanismId": "ncsl-tax-incentive:PA",
+      "state": "PA",
+      "title": "Pennsylvania data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?SESSYR=1971&SESSIND=0&ACTNUM=002&SMTHLWIND=&CHPT=29D&SCTN=&SUBSCTN=",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"Computer data center equipment,\" including hardware, software, and infrastructure, is exempt · No, utilities are specifically excluded · No · 72 Pa. Stat. § 9931-D Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-sc",
+      "mechanismId": "ncsl-tax-incentive:SC",
+      "state": "SC",
+      "title": "South Carolina data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": null,
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: \"original or replacement computers, computer equipment, and computer hardware and software purchases used within a data center\" exempted · Yes: \"electricity used by a datacenter and eligible business property to be located and used at the datacenter.\" · None · S.C. Code Ann. § 12-36-2120(79) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-tn",
+      "mechanismId": "ncsl-tax-incentive:TN",
+      "state": "TN",
+      "title": "Tennessee data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": null,
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Tangible personal property is exempt, including \"industrial machinery\" like computers · Yes: The sales tax rate is reduced to 1.5% for electricity only · No · Tenn. Code Ann. § 67-6-102 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-tx",
+      "mechanismId": "ncsl-tax-incentive:TX",
+      "state": "TX",
+      "title": "Texas data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": null,
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Software, computers, and other peripheral equipment · Yes: Electricity is exempt for data center, but a predominant use study is required if the data center shares its meter · No · Data center must be at least 100,000 square feet · 34 Tex. Admin. Code § 3.335 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-ut",
+      "mechanismId": "ncsl-tax-incentive:UT",
+      "state": "UT",
+      "title": "Utah data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://le.utah.gov/xcode/Title59/Chapter12/59-12-S104.html",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Machinery, equipment, and repair and replacement of equipment used at the data center is exempt · No · No · Must be at least 150,000 square feet · Utah Code Ann. § 59-12-104 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-va",
+      "mechanismId": "ncsl-tax-incentive:VA",
+      "state": "VA",
+      "title": "Virginia data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://law.lis.virginia.gov/vacode/title58.1/chapter6/section58.1-609.3/",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Sales tax exemption covers computers, software, and some utility equipment · No · No · § 58.1-609.3 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-wa",
+      "mechanismId": "ncsl-tax-incentive:WA",
+      "state": "WA",
+      "title": "Washington data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=82.08.986",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: For \"eligible server equipment\", \"eligible power infrastructure\", and labor and services. · No · No · May issue no more than six exemptions per calendar year for refurbishment · Wash. Rev. Code. Ann. § 82.08.986 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-wv",
+      "mechanismId": "ncsl-tax-incentive:WV",
+      "state": "WV",
+      "title": "West Virginia data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://code.wvlegislature.gov/11-6N-1/",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Exemption for \"data center property,\" including operation and construction · No · Yes: The assessed value is reduced to \"salvage value\", not to exceed 5% of the total value of the data center · WaVa. Code §11-6N-1 Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-wi",
+      "mechanismId": "ncsl-tax-incentive:WI",
+      "state": "WI",
+      "title": "Wisconsin data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/238/ii/40/1",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: Construction costs, renovation, and data center equipment are exempt · No · No · Wis. Stat. Ann. § 238.40(1)(b) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    },
+    {
+      "id": "ncsl-tax-incentive-wy",
+      "mechanismId": "ncsl-tax-incentive:WY",
+      "state": "WY",
+      "title": "Wyoming data-center tax incentive — discovery candidate",
+      "documentType": "Secondary index entry",
+      "legalStatus": "unknown",
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "primarySourceUrl": "https://wyoleg.gov/statutes/compress/title39.pdf#page=420",
+      "discoverySourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "topics": [
+        "data centers",
+        "tax incentive"
+      ],
+      "reviewStatus": "candidate",
+      "reviewedAt": null,
+      "summary": "Yes: For computer equipment; power supplies and generation may also be exempt if total investment exceeds $50 million · No · No · Wyo. Stat. 39-15-105(S)(IV) Secondary discovery only. Verify the official text, current legal status, dates, implementation, and mechanism before publication as reviewed evidence."
+    }
+  ],
+  "modelEffects": []
+}

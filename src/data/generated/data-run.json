@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "schemaVersion": "data-run.v1",
+    "runDate": "2026-07-21",
+    "generatedAt": "2026-07-21T09:41:11.588Z",
+    "overallStatus": "partial",
+    "stateContextRecords": 50,
+    "statePolicyCoverageRecords": 50,
+    "reviewedPolicyStates": 0,
+    "candidatePolicyInstruments": 38,
+    "approvedPolicyEffects": 0
+  },
+  "checks": [
+    {
+      "id": "epoch-snapshot",
+      "category": "Facilities & announcements",
+      "label": "Epoch AI public source package",
+      "status": "update-available",
+      "stateCoverage": "65 U.S. source records; 18 curated dashboard records",
+      "sourceDate": "2026-07-21",
+      "sourceUrl": "https://epoch.ai/data/data-centers-documentation",
+      "note": "Remote package changed after the release cutoff; review and freeze a new snapshot before publication."
+    },
+    {
+      "id": "eia-state",
+      "category": "Electricity",
+      "label": "EIA state electricity API",
+      "status": "blocked",
+      "stateCoverage": "50 last-valid released state records",
+      "sourceDate": "2024",
+      "sourceUrl": "https://www.eia.gov/opendata/",
+      "note": "Live refresh unavailable (429 {\n  \"error\": {\n    \"code\": \"OVER_RATE_LIMIT\",\n    \"message\": \"You have exceeded your rate limit. Try again later or contact us at https://api.eia.gov:443/contact/ for assistanc). The immutable 2024 release remains in use."
+    },
+    {
+      "id": "usgs-water",
+      "category": "Water",
+      "label": "USGS nationally consistent water-use compilation",
+      "status": "stale",
+      "stateCoverage": "50 released state records",
+      "sourceDate": "2015",
+      "sourceUrl": "https://water.usgs.gov/watuse/data/",
+      "note": "2015 remains the latest nationally consistent state compilation used here. It is historical context, not a facility water source, right, entitlement, or availability measure."
+    },
+    {
+      "id": "usdm-state",
+      "category": "Drought",
+      "label": "U.S. Drought Monitor state statistics",
+      "status": "passed",
+      "stateCoverage": "50 live state responses",
+      "sourceDate": "2026-07-14",
+      "sourceUrl": "https://www.drought.gov/data-download",
+      "note": "Weekly state-area context validated. It does not identify facility water supply or availability."
+    },
+    {
+      "id": "ncsl-policy-index",
+      "category": "State policy",
+      "label": "NCSL 50-state data-center incentive index",
+      "status": "passed",
+      "stateCoverage": "50 states; 38 model-inactive candidates",
+      "sourceDate": "April 01, 2026",
+      "sourceUrl": "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers",
+      "note": "Secondary discovery index only. Every candidate still requires controlling primary text and current-status review."
+    },
+    {
+      "id": "primary-policy-review",
+      "category": "State policy",
+      "label": "Primary-source legal review",
+      "status": "gap",
+      "stateCoverage": "0 states with reviewed instruments",
+      "sourceDate": "2026-07-21",
+      "sourceUrl": "https://docs.openstates.org/api-v3/",
+      "note": "No candidate is treated as a legal finding or forecast input until the controlling source, status, dates, mechanism, and review record are complete."
+    },
+    {
+      "id": "openstates-discovery",
+      "category": "Bills & drafts",
+      "label": "OpenStates weekday bill discovery",
+      "status": "credential-required",
+      "stateCoverage": "Configured for all 50 states",
+      "sourceDate": "2026-07-21",
+      "sourceUrl": "https://docs.openstates.org/api-v3/",
+      "note": "OPENSTATES_API_KEY is absent locally. The job cannot enumerate current bills or drafts, and no empty result is inferred."
+    },
+    {
+      "id": "announcement-review",
+      "category": "Facilities & announcements",
+      "label": "Primary announcement review",
+      "status": "partial",
+      "stateCoverage": "Source-linked for curated facilities only",
+      "sourceDate": "2026-07-21",
+      "sourceUrl": "https://epoch.ai/data/data-centers-documentation",
+      "note": "Operator, utility, permit, SEC, and agency announcements are reviewed per facility. This release is not a national announcement census."
+    }
+  ],
+  "gaps": [
+    "All-state resource context is present, but EIA and USGS vintages are not real-time operating conditions.",
+    "Current bills and drafts were not enumerated because the OpenStates server-side key is unavailable in this run.",
+    "The NCSL index covers dedicated tax incentives, not every state or local policy channel.",
+    "Facility announcements are source-linked for the curated registry, not an exhaustive national announcement feed."
+  ]
+}

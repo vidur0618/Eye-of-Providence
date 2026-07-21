@@ -1,0 +1,38 @@
+name: Thursday state-resource refresh
+
+on:
+  schedule:
+    - cron: "40 12 * * 4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.9.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Create review-only state resource snapshot
+        run: pnpm data:refresh:state-context -- --review-snapshot
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/state-resource-refresh
+          delete-branch: true
+          commit-message: "data: add state-resource review snapshot"
+          title: "Review: Thursday state-resource refresh"
+          body: |
+            Immutable review snapshot only. The last valid public release remains unchanged.
+            CI and a human reviewer must validate all-state coverage, schema, units, dates, provenance, freshness, and hashes before manual promotion.
+          labels: data-review,resource-context
