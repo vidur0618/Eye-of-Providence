@@ -7,6 +7,12 @@ Key of Providence turns public evidence into an inspectable research interface. 
 > [!IMPORTANT]
 > Release `0.2.0` is a research pilot, not a national census or calibrated production forecast. Facility power and compute values are estimates adapted from [Epoch AI's AI Data Centers dataset](https://epoch.ai/data/data-centers-documentation), not utility meter readings. Forecast intervals are transparent sensitivity envelopes, not validated coverage claims.
 
+## Product preview
+
+![Synchronized state forecast cockpit](docs/media/01-dashboard-overview.png)
+
+[Rapid-AI scenario comparison](docs/media/02-rapid-ai-scenario.png) · [Facility evidence and provenance](docs/media/03-facility-provenance.png) · [Scenario engine](docs/media/04-scenario-engine.png)
+
 ## What is implemented
 
 - Offline-capable 50-state choropleth with Alaska/Hawaii insets, state/facility drill-down, and explicit missing-evidence hatching
