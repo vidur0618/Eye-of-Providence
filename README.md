@@ -11,7 +11,7 @@ Key of Providence turns public evidence into an inspectable research interface. 
 
 ![Synchronized state forecast cockpit](docs/media/01-dashboard-overview.png)
 
-[Rapid-AI scenario comparison](docs/media/02-rapid-ai-scenario.png) · [Facility evidence and provenance](docs/media/03-facility-provenance.png) · [Scenario engine](docs/media/04-scenario-engine.png)
+[Rapid-AI scenario comparison](docs/media/02-rapid-ai-scenario.png) · [Facility evidence and provenance](docs/media/03-facility-provenance.png) · [Scenario engine](docs/media/04-scenario-engine.png) · [Policy evidence](docs/media/05-policy-evidence.png) · [Source health](docs/media/06-source-health.png) · [Methodology](docs/media/07-methodology.png)
 
 ## What is implemented
 
