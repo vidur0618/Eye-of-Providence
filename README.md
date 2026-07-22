@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/favicon.svg" alt="Key of Providence K/P mark" width="88" />
+</p>
+
 # Key of Providence
 
 **A source-linked observatory for United States AI data-center capacity, resource demand, constraints, and conditional futures.**
@@ -12,6 +16,14 @@ Key of Providence turns public evidence into an inspectable research interface. 
 ![Synchronized state forecast cockpit](docs/media/01-dashboard-overview.png)
 
 [Rapid-AI scenario comparison](docs/media/02-rapid-ai-scenario.png) · [Facility evidence and provenance](docs/media/03-facility-provenance.png) · [Scenario engine](docs/media/04-scenario-engine.png) · [Policy evidence](docs/media/05-policy-evidence.png) · [Source health](docs/media/06-source-health.png) · [Methodology](docs/media/07-methodology.png)
+
+## OpenAI Build Week
+
+Key of Providence was created with **OpenAI Codex powered by GPT-5.6**. Codex accelerated the React and TypeScript implementation, deterministic domain model, data and geographic pipelines, tests, release audits, browser QA, and documentation.
+
+The product decisions remained explicit and reviewable: the runtime is static and deterministic; provenance classes are visible; unknown relationships stay unknown; policy candidates cannot alter forecasts without primary review; and calibration claims are blocked until genuine historical evidence exists. The shipped application does not call an LLM or the OpenAI API at runtime.
+
+See the [Codex usage record](docs/CODEX_USAGE.md) for a detailed, inspectable account of how Codex and GPT-5.6 accelerated the project, and the [copy-ready Devpost submission package](docs/DEVPOST_SUBMISSION.md) for the project story, technology tags, try-it links, gallery captions, demo plan, and final submission checklist.
 
 ## What is implemented
 
