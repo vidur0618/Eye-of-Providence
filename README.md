@@ -2,7 +2,7 @@
   <img src="public/favicon.svg" alt="Key of Providence K/P mark" width="88" />
 </p>
 
-# Key of Providence
+# Eye of Providence
 
 **A source-linked observatory for United States AI data-center capacity, resource demand, constraints, and conditional futures.**
 
