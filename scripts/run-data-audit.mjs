@@ -33,7 +33,7 @@ if (JSON.stringify(contextStates) !== JSON.stringify([...STATES].sort())) throw 
 if (JSON.stringify(policyStates) !== JSON.stringify([...STATES].sort())) throw new Error("Policy coverage is not the exact 50-state set.");
 
 try {
-  const response = await fetch("https://epoch.ai/data/data_centers/data_centers.zip", { signal: AbortSignal.timeout(30_000), headers: { "user-agent": "Key-of-Providence/0.2 data-audit" } });
+  const response = await fetch("https://epoch.ai/data/data_centers/data_centers.zip", { signal: AbortSignal.timeout(30_000), headers: { "user-agent": "Eye-of-Providence/0.2 data-audit" } });
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   const archive = Buffer.from(await response.arrayBuffer());
   const remoteHash = createHash("sha256").update(archive).digest("hex");

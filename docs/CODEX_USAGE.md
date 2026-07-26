@@ -2,7 +2,7 @@
 
 ## Summary
 
-Key of Providence was built with **OpenAI Codex powered by GPT-5.6** as a development partner. Codex accelerated implementation across the interface, deterministic model, data-release tooling, tests, audits, visual QA, and documentation.
+Eye of Providence was built with **OpenAI Codex powered by GPT-5.6** as a development partner. Codex accelerated implementation across the interface, deterministic model, data-release tooling, tests, audits, visual QA, and documentation.
 
 It was not used as a hidden decision-maker inside the released product. The public application has no LLM endpoint or runtime model call: its calculations run from versioned TypeScript code and frozen data artifacts.
 

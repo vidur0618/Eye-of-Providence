@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { DATASET_VERSION, MODEL_VERSION } from "./catalog";
 
-const STORAGE_KEY = "key-of-providence-review-receipts-v1";
+const STORAGE_KEY = "eye-of-providence-review-receipts-v1";
 
 export interface ReviewReceipt {
   receiptId: string;
@@ -97,7 +97,7 @@ export const downloadReviewReceipts = (receipts: ReviewReceipt[]) => {
   const url = URL.createObjectURL(new Blob([`${JSON.stringify(payload, null, 2)}\n`], { type: "application/json" }));
   const link = document.createElement("a");
   link.href = url;
-  link.download = `key-of-providence-local-review-${new Date().toISOString().slice(0, 10)}.json`;
+  link.download = `eye-of-providence-local-review-${new Date().toISOString().slice(0, 10)}.json`;
   link.click();
   URL.revokeObjectURL(url);
 };

@@ -10,7 +10,7 @@ import App from "./App";
 describe("observatory application", () => {
   it("server-renders the national map and evidence framing", () => {
     const html = renderToString(<App />);
-    expect(html).toContain("Key of Providence");
+    expect(html).toContain("Eye of Providence");
     expect(html).toContain("United States synchronized state forecast map");
     expect(html).toContain("Reported context ≠ forecast input");
     expect(html).toContain("Alaska");

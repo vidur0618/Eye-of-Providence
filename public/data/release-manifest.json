@@ -1,8 +1,8 @@
 {
   "release": "0.2.0",
   "as_of": "2026-07-21",
-  "dataset_version": "kop-facilities-2026-07-21.1",
-  "model_version": "kop-forecast-0.2.0",
+  "dataset_version": "eop-facilities-2026-07-21.1",
+  "model_version": "eop-forecast-0.2.0",
   "status": "public research pilot",
   "geographic_scope": "All 50 United States, including Alaska and Hawaii insets; tracked facilities use city-level display points",
   "time_horizon": "quarterly from 2026-Q3 through 2030-Q4; annually from 2031 through 2040",
@@ -11,7 +11,7 @@
   "release_assets": {
     "state_context": {
       "file": "releases/2026-07-21/state-context.json",
-      "sha256": "d0f000cade8f2672b61731a81d876a3ca96f4c770c682a82164d35ba13da5b6c",
+      "sha256": "f2ffd229a04538604ed12ab3ced52d0395101bcc2915bef32e8d29e5bce77a0c",
       "schema_version": "state-context.v1",
       "source_versions": ["EIA final annual 2024", "USGS water use 2015 v2.0", "USDM 2026-07-14"],
       "accessed_at": "2026-07-21",

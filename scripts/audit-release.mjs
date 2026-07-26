@@ -10,7 +10,9 @@ const getArgument = (name) => {
   return index >= 0 ? process.argv[index + 1] : undefined;
 };
 const asOf = getArgument("--as-of") ?? "2026-07-21";
-const sha256 = (value) => createHash("sha256").update(value).digest("hex");
+const sha256 = (value) => createHash("sha256")
+  .update(Buffer.isBuffer(value) ? value.toString("utf8").replaceAll("\r\n", "\n") : String(value).replaceAll("\r\n", "\n"))
+  .digest("hex");
 const read = (value) => readFile(path.resolve(value));
 const parse = async (value) => JSON.parse((await read(value)).toString("utf8"));
 const fail = (message) => { throw new Error(message); };

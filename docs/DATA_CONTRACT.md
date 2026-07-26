@@ -1,6 +1,6 @@
 # Data contract
 
-Key of Providence treats provenance as part of the value, not as a footnote.
+Eye of Providence treats provenance as part of the value, not as a footnote.
 
 ## Stable entity hierarchy
 

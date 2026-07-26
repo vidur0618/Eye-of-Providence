@@ -1,9 +1,13 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
+const asOfIndex = process.argv.indexOf("--as-of");
 const RELEASE_DATE = process.argv.find((value) => value.startsWith("--as-of="))?.split("=")[1]
-  ?? process.argv[process.argv.indexOf("--as-of") + 1]
+  ?? (asOfIndex >= 0 ? process.argv[asOfIndex + 1] : undefined)
   ?? new Date().toISOString().slice(0, 10);
+if (!/^\d{4}-\d{2}-\d{2}$/.test(RELEASE_DATE)) {
+  throw new Error(`--as-of must be an ISO date (YYYY-MM-DD), received: ${RELEASE_DATE}`);
+}
 const SOURCE_URL = "https://www.ncsl.org/fiscal/subsidizing-servers-how-states-are-competing-to-attract-data-centers";
 const STATE_CODES = {
   Alabama: "AL", Alaska: "AK", Arizona: "AZ", Arkansas: "AR", California: "CA", Colorado: "CO",
@@ -32,7 +36,7 @@ const decode = (value) => value
   .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)));
 const text = (value) => decode(value.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
 
-const response = await fetch(SOURCE_URL, { headers: { "user-agent": "Key-of-Providence/0.2 policy-discovery" } });
+const response = await fetch(SOURCE_URL, { headers: { "user-agent": "Eye-of-Providence/0.2 policy-discovery" } });
 if (!response.ok) throw new Error(`NCSL discovery index failed: ${response.status} ${response.statusText}`);
 const html = await response.text();
 const table = html.match(/<table[\s\S]*?<\/table>/i)?.[0];

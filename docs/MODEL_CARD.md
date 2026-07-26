@@ -1,4 +1,4 @@
-# Forecast model card — `kop-forecast-0.2.0`
+# Forecast model card — `eop-forecast-0.2.0`
 
 ## Intended use
 

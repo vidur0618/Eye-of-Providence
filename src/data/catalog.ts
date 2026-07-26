@@ -1,7 +1,7 @@
 import type { FacilityRecord, Measurement, Scenario, SourceRecord } from "../domain/types";
 
-export const DATASET_VERSION = "kop-facilities-2026-07-21.1";
-export const MODEL_VERSION = "kop-forecast-0.2.0";
+export const DATASET_VERSION = "eop-facilities-2026-07-21.1";
+export const MODEL_VERSION = "eop-forecast-0.2.0";
 export const AS_OF_DATE = "2026-07-21";
 
 const epochMeasurement = (

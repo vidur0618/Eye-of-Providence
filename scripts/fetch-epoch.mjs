@@ -34,7 +34,7 @@ if (!force) {
 }
 
 const response = await fetch(SOURCE_URL, {
-  headers: { "user-agent": "Key-of-Providence/0.1 source-snapshot" },
+  headers: { "user-agent": "Eye-of-Providence/0.1 source-snapshot" },
 });
 if (!response.ok) throw new Error(`Epoch download failed: ${response.status} ${response.statusText}`);
 const archive = new Uint8Array(await response.arrayBuffer());

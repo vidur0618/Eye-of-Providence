@@ -13,28 +13,41 @@ jobs:
   discover:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v6
         with:
           version: 11.9.0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - name: Create public 50-state NCSL discovery snapshot
         run: pnpm data:discover:policy-index
+      - name: Check OpenStates credential
+        id: openstates
+        shell: bash
+        env:
+          OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
+        run: |
+          if [[ -n "$OPENSTATES_API_KEY" ]]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::OPENSTATES_API_KEY is not configured; the public NCSL discovery snapshot will still be proposed for review."
+          fi
       - name: Create immutable OpenStates candidate snapshot
+        if: steps.openstates.outputs.available == 'true'
         run: pnpm data:discover:state-policies
         env:
           OPENSTATES_API_KEY: ${{ secrets.OPENSTATES_API_KEY }}
-      - uses: peter-evans/create-pull-request@v7
+      - uses: peter-evans/create-pull-request@v8
         with:
           branch: automation/policy-discovery
           delete-branch: true
           commit-message: "data: add state-policy discovery snapshot"
           title: "Review: weekday state-policy discovery"
           body: |
-            Review-only OpenStates candidates. No item is published or model-active.
+            Review-only NCSL index and, when the repository credential is configured, OpenStates candidates. No item is published or model-active.
             A reviewer must link controlling primary text, confirm legal status and dates, deduplicate mechanisms, and approve any quantitative effect separately.
           labels: data-review,policy-review

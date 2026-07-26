@@ -1,10 +1,10 @@
-# Key of Providence — Devpost submission package
+# Eye of Providence — Devpost submission package
 
 This file contains copy-ready submission text, technology tags, links, media captions, a short demo plan, and the final items that still require owner input.
 
 ## Submission fields
 
-- **Project name:** Key of Providence
+- **Project name:** Eye of Providence
 - **Tagline:** See the infrastructure behind AI—and the uncertainty behind every forecast.
 - **Recommended track:** Work & Productivity
 - **Primary audience:** Infrastructure planners, public-interest researchers, policy teams, journalists, and analysts
@@ -16,13 +16,13 @@ This file contains copy-ready submission text, technology tags, links, media cap
 
 AI infrastructure is increasingly discussed through giant headline numbers: megawatts announced, gigawatts requested, electricity consumed, water used, accelerators installed. But those numbers often describe different things. A campus announcement is not connected load. Facility power is not IT power. A state water total is not a data center's supply. A scenario is not a prediction.
 
-We built **Key of Providence** because researchers and decision-makers need more than another map of dots. They need a way to move from a national trend to a state, a facility, an equation, and the underlying evidence—without losing the uncertainty along the way.
+We built **Eye of Providence** because researchers and decision-makers need more than another map of dots. They need a way to move from a national trend to a state, a facility, an equation, and the underlying evidence—without losing the uncertainty along the way.
 
-The name reflects the product's purpose. It does not claim to reveal a predetermined future. It provides a key for interpreting several conditional futures and understanding what would have to be true for each one.
+The name reflects the product's purpose. It does not claim to reveal a predetermined future. It offers a clearer view of several conditional futures and the assumptions that would have to hold for each one.
 
 ### What it does
 
-Key of Providence is a synchronized observatory for United States AI data-center capacity, resource demand, constraints, and conditional futures.
+Eye of Providence is a synchronized observatory for United States AI data-center capacity, resource demand, constraints, and conditional futures.
 
 A single state, period, scenario, map layer, and comparison mode drives the entire interface. Users can:
 
@@ -148,7 +148,7 @@ The next release will focus on evidence rather than cosmetic expansion:
 5. add authenticated, signed analyst approvals and append-only release history;
 6. expand facility and announcement coverage without converting “no record” into “no infrastructure.”
 
-Key of Providence is already useful as an inspectable scenario and evidence instrument. Its ambition is to become a shared research surface where planners, journalists, analysts, and communities can debate the future of AI infrastructure while looking at the same definitions, sources, assumptions, and gaps.
+Eye of Providence is already useful as an inspectable scenario and evidence instrument. Its ambition is to become a shared research surface where planners, journalists, analysts, and communities can debate the future of AI infrastructure while looking at the same definitions, sources, assumptions, and gaps.
 
 ## Built with
 

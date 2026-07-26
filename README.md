@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="public/favicon.svg" alt="Key of Providence K/P mark" width="88" />
+  <img src="public/favicon.svg" alt="Eye of Providence E/P mark" width="88" />
 </p>
 
 # Eye of Providence
 
 **A source-linked observatory for United States AI data-center capacity, resource demand, constraints, and conditional futures.**
 
-Key of Providence turns public evidence into an inspectable research interface. It keeps facility power, IT power, annual electricity, compute equivalents, water, project status, and forecast expectations separate—and makes every analytical value disclose what it is.
+Eye of Providence turns public evidence into an inspectable research interface. It keeps facility power, IT power, annual electricity, compute equivalents, water, project status, and forecast expectations separate—and makes every analytical value disclose what it is.
 
 > [!IMPORTANT]
 > Release `0.2.0` is a research pilot, not a national census or calibrated production forecast. Facility power and compute values are estimates adapted from [Epoch AI's AI Data Centers dataset](https://epoch.ai/data/data-centers-documentation), not utility meter readings. Forecast intervals are transparent sensitivity envelopes, not validated coverage claims.
@@ -19,7 +19,7 @@ Key of Providence turns public evidence into an inspectable research interface. 
 
 ## OpenAI Build Week
 
-Key of Providence was created with **OpenAI Codex powered by GPT-5.6**. Codex accelerated the React and TypeScript implementation, deterministic domain model, data and geographic pipelines, tests, release audits, browser QA, and documentation.
+Eye of Providence was created with **OpenAI Codex powered by GPT-5.6**. Codex accelerated the React and TypeScript implementation, deterministic domain model, data and geographic pipelines, tests, release audits, browser QA, and documentation.
 
 The product decisions remained explicit and reviewable: the runtime is static and deterministic; provenance classes are visible; unknown relationships stay unknown; policy candidates cannot alter forecasts without primary review; and calibration claims are blocked until genuine historical evidence exists. The shipped application does not call an LLM or the OpenAI API at runtime.
 

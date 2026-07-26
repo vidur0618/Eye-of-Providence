@@ -38,7 +38,7 @@ const requestJson = async (url, attempts = 3) => {
   let lastError;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
-      const response = await fetch(url, { headers: { "user-agent": "Key-of-Providence/0.1 county-crosswalk" } });
+      const response = await fetch(url, { headers: { "user-agent": "Eye-of-Providence/0.1 county-crosswalk" } });
       if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
       return await response.json();
     } catch (error) {

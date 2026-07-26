@@ -13,20 +13,34 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v6
         with:
           version: 11.9.0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - name: Check EIA credential
+        id: eia
+        shell: bash
+        env:
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: |
+          if [[ -n "$EIA_API_KEY" ]]; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::EIA_API_KEY is not configured; no state-resource snapshot or pull request will be created."
+          fi
       - name: Create review-only state resource snapshot
+        if: steps.eia.outputs.available == 'true'
         run: pnpm data:refresh:state-context -- --review-snapshot
         env:
           EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
-      - uses: peter-evans/create-pull-request@v7
+      - uses: peter-evans/create-pull-request@v8
+        if: steps.eia.outputs.available == 'true'
         with:
           branch: automation/state-resource-refresh
           delete-branch: true

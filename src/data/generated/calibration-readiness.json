@@ -1,7 +1,7 @@
 {
   "metadata": {
     "asOf": "2026-07-21",
-    "modelVersion": "kop-forecast-0.1.0",
+    "modelVersion": "eop-forecast-0.1.0",
     "generatedBy": "scripts/check-calibration-readiness.mjs",
     "status": "blocked-insufficient-historical-evidence",
     "calibrationClaimAllowed": false

@@ -77,7 +77,7 @@ const passed = criteria.every((criterion) => criterion.passed);
 const output = {
   metadata: {
     asOf,
-    modelVersion: "kop-forecast-0.1.0",
+    modelVersion: "eop-forecast-0.1.0",
     generatedBy: "scripts/check-calibration-readiness.mjs",
     status: passed ? "ready-for-evaluation" : "blocked-insufficient-historical-evidence",
     calibrationClaimAllowed: false,

@@ -145,7 +145,7 @@ const exportStateCsv = (rows: StateTableRow[], period: string, scenario: string)
   const encode = (value: string | number | null) => `"${String(value ?? "").replaceAll('"', '""')}"`;
   const output = [headers, ...rows.map((row) => [row.state, row.stateName, row.coverage, row.mw, row.deltaMw, row.electricityTwh, row.waterMgd, row.electricitySharePct, row.droughtPct, row.reviewedPolicyCount, row.freshness])].map((row) => row.map(encode).join(",")).join("\n");
   const url = URL.createObjectURL(new Blob([output], { type: "text/csv;charset=utf-8" }));
-  const link = document.createElement("a"); link.href = url; link.download = `kop-state-view-${scenario}-${period}.csv`; link.click(); URL.revokeObjectURL(url);
+  const link = document.createElement("a"); link.href = url; link.download = `eop-state-view-${scenario}-${period}.csv`; link.click(); URL.revokeObjectURL(url);
 };
 
 function DefinitionTerm({ term, children }: { term: string; children: React.ReactNode }) {
@@ -270,7 +270,7 @@ function App() {
 
   const copyCitation = async () => {
     await navigator.clipboard.writeText(
-      `Key of Providence. Synchronized State Forecast Cockpit, release 0.2.0, dataset ${DATASET_VERSION}, model ${MODEL_VERSION}, state context schema ${stateContextRelease.metadata.schemaVersion}, as of ${AS_OF_DATE}. Facility estimates adapted from Epoch AI, “AI Data Centers,” CC BY; state context from EIA, USGS, and the U.S. Drought Monitor.`,
+      `Eye of Providence. Synchronized State Forecast Cockpit, release 0.2.0, dataset ${DATASET_VERSION}, model ${MODEL_VERSION}, state context schema ${stateContextRelease.metadata.schemaVersion}, as of ${AS_OF_DATE}. Facility estimates adapted from Epoch AI, “AI Data Centers,” CC BY; state context from EIA, USGS, and the U.S. Drought Monitor.`,
     );
     setCitationCopied(true);
     window.setTimeout(() => setCitationCopied(false), 2200);
@@ -280,10 +280,10 @@ function App() {
     <div className="app-shell">
       <header className="site-header">
         <div className="brand-block">
-          <span className="brand-mark" aria-hidden="true">K/P</span>
+          <span className="brand-mark" aria-hidden="true">E/P</span>
           <div>
             <p className="eyebrow">AI infrastructure observatory</p>
-            <a className="brand-name" href="#top" onClick={() => setView("overview")}>Key of Providence</a>
+            <a className="brand-name" href="#top" onClick={() => setView("overview")}>Eye of Providence</a>
           </div>
         </div>
         <nav className="primary-nav" aria-label="Primary navigation">
@@ -505,7 +505,7 @@ function App() {
       </main>
 
       <footer className="site-footer">
-        <div><span className="brand-mark">K/P</span><p>Key of Providence<br /><small>U.S. AI Infrastructure Observatory</small></p></div>
+        <div><span className="brand-mark">E/P</span><p>Eye of Providence<br /><small>U.S. AI Infrastructure Observatory</small></p></div>
         <p>Research release · Source-linked · Reproducible<br /><small>Analytical estimates are not utility measurements, legal advice, or investment advice.</small></p>
         <div><a href="https://epoch.ai/data/data-centers-documentation" target="_blank" rel="noreferrer">Epoch AI data credit ↗</a><button onClick={() => setView("methodology")}>Methodology</button></div>
       </footer>
@@ -771,7 +771,7 @@ function Methodology() {
       <div className="release-history">
         <p className="eyebrow">What changed since the prior release</p>
         <div className="release-row"><strong>0.2.0</strong><span>{AS_OF_DATE}</span><p>Added all 50 states, Alaska/Hawaii insets, synchronized playback and URL state, facility-first reconciliation, aligned MW/electricity/water paths, state resource context, explicit policy-coverage gaps, current-view export, and source lineage.</p><code>{DATASET_VERSION} · {MODEL_VERSION}</code></div>
-        <div className="release-row"><strong>0.1.0</strong><span>Prior</span><p>Reproducible pilot with the licensed U.S. Epoch snapshot, dated project and hardware timelines, geography crosswalks, deterministic resource conversions, scenario bundles, and a policy review gate.</p><code>kop-forecast-0.1.0</code></div>
+        <div className="release-row"><strong>0.1.0</strong><span>Prior</span><p>Reproducible pilot with the licensed U.S. Epoch snapshot, dated project and hardware timelines, geography crosswalks, deterministic resource conversions, scenario bundles, and a policy review gate.</p><code>eop-forecast-0.1.0</code></div>
         <div className="release-row future"><strong>Next gate</strong><span>Unpublished</span><p>Serving-utility and topology-confirmed BA/ISO assignments, hindcast calibration, signed analyst approvals, and historical as-of replay.</p><code>No release claim</code></div>
       </div>
       <div className="geography-contract">
